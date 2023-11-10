@@ -1,0 +1,175 @@
+//
+// _components-rtl.scss
+//
+
+//Alert
+.alert {
+    &.alert-dismissible {
+        padding-left: 30px !important;
+        padding-right: auto;
+        .close {
+            left: -10px !important;
+            right: auto;
+        }
+    }
+}
+
+//Pagination
+.pagination {
+    .page-item {        
+        &:first-child {
+            .page-link {
+                border-top-left-radius: 0;
+                border-bottom-left-radius: 0;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+        }
+        &:last-child {
+            .page-link {
+                border-top-right-radius: 0;
+                border-bottom-right-radius: 0;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+            }
+        }
+    }
+}
+
+//Accordion
+// .accordion {
+//     .accordion-item {
+//         .accordion-button {
+//             text-align: right;
+//             padding: 1rem 1.25rem 1rem 2.5rem;
+//             &:before {
+//                 left: 20px;
+//                 right: auto;
+//             }
+//         }
+//     }
+
+//     .accordion-button {
+//         &:after {
+//             margin-right: auto !important;
+//             margin-left: 0;
+//         }
+//     }
+// }
+
+
+//Buttons
+.btn-group {
+    .dropdown-toggle {
+        &:after {
+            left: -4px !important;
+            right: auto;
+        }
+    }
+    .dropdown-menu {
+        &:before {
+            right: 10px !important;
+            left: auto;
+        }
+        &.show {
+            right: 0;
+            left: auto;
+            inset: 0px auto auto 0px !important;
+        }
+    }
+    .dropdown-item {
+        text-align: right !important;
+    }
+}
+
+.dropdown-menu {
+    &.show {
+        inset: 0px auto auto 0px !important;
+    }
+}
+
+.dropdown-item {
+    text-align: right !important;
+}
+
+//Accordion
+.accordion {
+    .accordion-item {
+        .accordion-button {
+            text-align: right;
+            padding: 1rem 1.25rem 1rem 2.5rem;
+            &:before {
+                left: 15px;
+                right: auto;
+            }
+        }
+    }
+
+    .accordion-button {
+        &:after {
+            margin-right: auto !important;
+            margin-left: 0;
+        }
+    }
+}
+
+//FAQ / ACCORDIONS
+.faq-content {
+    .card {
+        .faq {           
+            .card-header {
+                padding-left: 40px !important;
+                padding-right: auto;
+            }
+        }  
+        a.faq[data-toggle=collapse]{
+            &:before {
+                left: 20px !important;
+                right: auto;
+            }
+        }
+    }
+}
+
+.subscribe-form {
+    input {
+        padding-left: 130px !important;
+        padding-right: 20px;
+    }
+    button {
+        left: 5px !important;
+        right: auto;
+    }
+}
+
+//Breadcrumb
+.breadcrumb {
+    .breadcrumb-item {
+        &:before {
+            content: "\F0141";
+            font-family: 'Material Design Icons';
+            color: $dark; 
+            padding: 0 6px !important;
+        }   
+        &:after {
+            display: none;
+        }
+        &:last-child {
+            &:before {
+                display: none !important;
+            }
+        }       
+    }
+}
+
+//back to top
+.back-to-top {
+    left: 30px;
+    right: auto;
+}
+
+//back-to-home
+.back-to-home {
+    left: 2%;
+    right: auto;
+}
