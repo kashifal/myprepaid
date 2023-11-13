@@ -1,805 +1,1483 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Hostick - Web Hosting HTML Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Premium bootstrap 5 Hosting Template" />
+    <meta
+      name="keywords"
+      content="bootstrap 5, premium, hosting, domain, reseller, vps"
+    />
+    <meta name="author" content="Shreethemes" />
+    <meta name="version" content="2.1.0" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- Icons -->
+    <link
+      href="css/materialdesignicons.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <!-- Css -->
+    <link
+      href="css/style.css"
+      rel="stylesheet"
+      type="text/css"
+      id="theme-opt"
+    />
+    <link href="css/colors/default.css" rel="stylesheet" id="color-opt" />
+    <style>
+      .p-4 {
+        padding: 4rem !important;
+      }
+      .border {
+        border: 1px solid #e5e5e5 !important;
+      }
+      .rounded {
+        border-radius: 0.25rem !important;
+      }
+      .flex {
+        display: flex !important;
+      }
+      .items-center {
+        align-items: center !important;
+      }
+      .gap-4 {
+        gap: 1rem !important;
+      }
+    </style>
+  </head>
 
-    <head>
-        <meta charset="utf-8" />
-        <title>Hostick - Web Hosting HTML Template</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Premium bootstrap 5 Hosting Template" />
-        <meta name="keywords" content="bootstrap 5, premium, hosting, domain, reseller, vps" />
-        <meta name="author" content="Shreethemes" />
-        <meta name="version" content="2.1.0" />
-        <!-- favicon -->
-        <link rel="shortcut icon" href="images/favicon.ico">
-        <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <!-- Icons -->
-        <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-        <!-- Css -->
-        <link href="css/style.css" rel="stylesheet" type="text/css" id="theme-opt" />
-        <link href="css/colors/default.css" rel="stylesheet" id="color-opt">
+  <body>
+    <!-- Navbar STart -->
+    <header id="topnav" class="sticky defaultscroll">
+      <div class="container">
+        <!-- Logo container-->
+        <a class="logo" href="index.html">
+          <span class="logo-light-mode">
+            <img
+              src="https://myprepaid-server.com/mt-content/uploads/2022/10/e3gg6q4wuai-jhz.png"
+              class="h-8 l-dark"
+              alt=""
+            />
+            <img
+              src="https://myprepaid-server.com/mt-content/uploads/2022/10/e3gg6q4wuai-jhz.png"
+              class="h-8 l-light"
+              alt=""
+            />
+          </span>
+          <img
+            src="https://myprepaid-server.com/mt-content/uploads/2022/10/e3gg6q4wuai-jhz.png"
+            class="h-8 logo-dark-mode"
+            alt=""
+          />
+        </a>
 
-    </head>
+        <div class="menu-extras">
+          <div class="menu-item">
+            <!-- Mobile menu toggle-->
+            <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+              <div class="lines">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </a>
+            <!-- End mobile menu toggle-->
+          </div>
+        </div>
 
-    <body>
-        
-        <!-- Navbar STart -->
-        <header id="topnav" class="defaultscroll sticky">
-            <div class="container">
-                <!-- Logo container-->
-                <a class="logo" href="index.html">
-                    <img src="images/logo-dark.png" height="20" class="logo-light-mode" alt="">
-                    <img src="images/logo-light.png" height="20" class="logo-dark-mode" alt="">
-                </a>                 
-                <div class="menu-extras">
-                    <div class="menu-item">
-                        <!-- Mobile menu toggle-->
-                        <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
-                            <div class="lines">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-                        </a>
-                        <!-- End mobile menu toggle-->
-                    </div>
+        <ul class="mb-0 buy-button list-inline">
+          <li>
+            <a href="javascript:void(0)" class="mx-1 btn btn-primary">Login</a>
+          </li>
+        </ul>
+        <!--end login button-->
+
+        <div id="navigation">
+          <!-- Navigation Menu-->
+          <ul class="navigation-menu nav-light">
+            <li class="has-submenu parent-parent-menu-item">
+              <a href="index.html" class="sub-menu-item">Home</a>
+            </li>
+
+            <li class="has-submenu parent-parent-menu-item">
+              <a href="javascript:void(0)">Server</a
+              ><span class="menu-arrow"></span>
+              <ul class="submenu">
+                <li class="has-submenu parent-menu-item">
+                  <a href="javascript:void(0)">
+                    NL | RootServer <br />
+                    ( Gaming)</a
+                  ><span class="submenu-arrow"></span>
+                  <ul class="submenu">
+                    <li>
+                      <a href="page-blog.html" class="sub-menu-item">
+                        Gaming KVM-Server</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="has-submenu parent-menu-item">
+                  <a href="javascript:void(0)">
+                    DE | Rootserver <br />
+                    (NEW)</a
+                  ><span class="submenu-arrow"></span>
+                  <ul class="submenu">
+                    <li>
+                      <a href="page-blog.html" class="sub-menu-item">
+                        Rootserver Pakete</a
+                      >
+                    </li>
+                    <li>
+                      <a href="page-blog.html" class="sub-menu-item">
+                        Konfigurator</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="has-submenu parent-menu-item">
+                  <a href="javascript:void(0)">
+                    NL | <br />
+                    KVM-Rootserver</a
+                  ><span class="submenu-arrow"></span>
+                  <ul class="submenu">
+                    <li>
+                      <a href="page-blog.html" class="sub-menu-item">
+                        AMD EPYC (NEW)</a
+                      >
+                    </li>
+                    <li>
+                      <a href="page-blog.html" class="sub-menu-item">
+                        Intel Pakete</a
+                      >
+                    </li>
+                    <li>
+                      <a href="page-blog.html" class="sub-menu-item">
+                        Intel Konfigurator</a
+                      >
+                    </li>
+                    <li>
+                      <a href="page-blog.html" class="sub-menu-item">
+                        Intel Rootserver Angebote</a
+                      >
+                    </li>
+                    <li>
+                      <a href="page-blog.html" class="sub-menu-item">
+                        Intel Rootserver Discount</a
+                      >
+                    </li>
+                    <li>
+                      <a href="page-blog.html" class="sub-menu-item">
+                        Ryzen Rootserver</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="contact.html" class="sub-menu-item">Dedicated Servers</a>
+            </li>
+            <li><a href="contact.html" class="sub-menu-item">Contact</a></li>
+            <li>
+              <a
+                href="https://1.envato.market/hostick-template"
+                target="_blank"
+                class="sub-menu-item"
+                >FAQ</a
+              >
+            </li>
+          </ul>
+          <!--end navigation menu-->
+        </div>
+        <!--end navigation-->
+      </div>
+      <!--end container-->
+    </header>
+    <!--end header-->
+    <!-- Navbar End -->
+
+    <!-- Home Start -->
+    <section
+      class="bg-half-260 d-table w-100 bg-primary"
+      style="background: url('images/bg/bg1.png') top center"
+      id="home"
+    >
+      <div class="bg-overlay"></div>
+      <div class="container">
+        <div class="mt-5 row justify-content-center">
+          <div class="col-12">
+            <div class="text-center title-heading">
+              <h4 class="mb-3 text-white heading title-dark">
+                Hosting & Domain In One Plateform
+              </h4>
+              <p class="mx-auto mb-0 text-white-50 para-desc">
+                YOUR PREPAID ROOT SERVER Server from 2.95 € / month* Including
+                DDoS protection
+              </p>
+
+              <div class="mt-4">
+                <a href="javascript:void(0)" class="mx-1 btn btn-primary"
+                  >On the Products
+                </a>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+      <!--end container-->
+    </section>
+
+    <!-- Home End -->
+    <section class="section">
+      <div class="container">
+        <div class="p-4">
+          <h2 class="text-center">Wissensdatenbank</h2>
+        </div>
+        <div class="flex items-center gap-4 p-4 border rounded">
+          <input
+            style="width: 100%; padding: 12px; outline: none"
+            class="border rounded"
+            type="text"
+            placeholder="Search..."
+          />
+          <button
+            style="
+              padding: 12px;
+              outline: none;
+              background: #475df0;
+              color: white;
+            "
+            class="border rounded"
+          >
+            Search
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Start -->
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-5 col-12 d-none d-md-block">
+            <div class="p-4 shadow rounded-pill component-wrapper">
+              <div class="py-2">
+                <h2>Support</h2>
+              </div>
+              <ul class="mb-0 list-unstyled">
+                <li class="mb-4">
+                  <a href="#tech" class="mouse-down h6 text-dark"
+                    >Technical Questions</a
+                  >
+                </li>
+                <li class="mb-4">
+                  <a href="#general" class="mouse-down h6 text-dark"
+                    >General Questions</a
+                  >
+                </li>
+                <li>
+                  <a href="#payment" class="mouse-down h6 text-dark"
+                    >Payments Questions</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!--end col-->
+
+          <div class="col-lg-8 col-md-7 col-12">
+            <div class="section-title" id="tech">
+              <h4>Technical Questions</h4>
+            </div>
+            <div class="pt-2 mt-4 accordion" id="accordionExamplethree">
+              <div class="bg-white rounded shadow accordion-item">
+                <h2 class="accordion-header" id="headingOneo">
+                  <button
+                    class="border-0 accordion-button bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOneo"
+                    aria-expanded="true"
+                    aria-controls="collapseOneo"
+                  >
+                    Features
+                  </button>
+                </h2>
+                <div
+                  id="collapseOneo"
+                  class="border-0 accordion-collapse collapse show"
+                  aria-labelledby="headingOneo"
+                  data-bs-parent="#accordionExamplethree"
+                >
+                  <div class="accordion-body">
+                    <ul class="mb-0 list-unstyled">
+                      <li class="my-2 text-muted">
+                        <i
+                          data-feather="arrow-right-circle"
+                          class="fea icon-ex-md text-primary me-2"
+                        ></i
+                        >CentOS 6/CentOS 7/Ubuntu 16.04/Fedora 23/Debian 8
+                      </li>
+                      <li class="my-2 text-muted">
+                        <i
+                          data-feather="arrow-right-circle"
+                          class="fea icon-ex-md text-primary me-2"
+                        ></i
+                        >Multiple locations
+                      </li>
+                      <li class="my-2 text-muted">
+                        <i
+                          data-feather="arrow-right-circle"
+                          class="fea icon-ex-md text-primary me-2"
+                        ></i
+                        >Private Network
+                      </li>
+                      <li class="my-2 text-muted">
+                        <i
+                          data-feather="arrow-right-circle"
+                          class="fea icon-ex-md text-primary me-2"
+                        ></i
+                        >Quick VNC access
+                      </li>
+                      <li class="my-2 text-muted">
+                        <i
+                          data-feather="arrow-right-circle"
+                          class="fea icon-ex-md text-primary me-2"
+                        ></i
+                        >rDNS support
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-2 bg-white rounded shadow accordion-item">
+                <h2 class="accordion-header" id="headingTwoo">
+                  <button
+                    class="border-0 accordion-button bg-light collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwoo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwoo"
+                  >
+                    Performance
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwoo"
+                  class="border-0 accordion-collapse collapse"
+                  aria-labelledby="headingTwoo"
+                  data-bs-parent="#accordionExamplethree"
+                >
+                  <div class="accordion-body">
+                    <ul class="mb-0 list-unstyled">
+                      <li class="my-2 text-muted">
+                        <i
+                          data-feather="arrow-right-circle"
+                          class="fea icon-ex-md text-primary me-2"
+                        ></i
+                        >Top notch network built with Tier 1 ISPs
+                      </li>
+                      <li class="my-2 text-muted">
+                        <i
+                          data-feather="arrow-right-circle"
+                          class="fea icon-ex-md text-primary me-2"
+                        ></i
+                        >SSD Storage
+                      </li>
+                      <li class="my-2 text-muted">
+                        <i
+                          data-feather="arrow-right-circle"
+                          class="fea icon-ex-md text-primary me-2"
+                        ></i
+                        >Tier IV Data Center
+                      </li>
+                      <li class="my-2 text-muted">
+                        <i
+                          data-feather="arrow-right-circle"
+                          class="fea icon-ex-md text-primary me-2"
+                        ></i
+                        >Neustar’s DDoS protection
+                      </li>
+                      <li class="my-2 text-muted">
+                        <i
+                          data-feather="arrow-right-circle"
+                          class="fea icon-ex-md text-primary me-2"
+                        ></i
+                        >Backed by Juniper Networks
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-2 bg-white rounded shadow accordion-item">
+                <h2 class="accordion-header" id="headingThreeo">
+                  <button
+                    class="border-0 accordion-button bg-light collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThreeo"
+                    aria-expanded="false"
+                    aria-controls="collapseThreeo"
+                  >
+                    Boosters
+                  </button>
+                </h2>
+                <div
+                  id="collapseThreeo"
+                  class="border-0 accordion-collapse collapse"
+                  aria-labelledby="headingThreeo"
+                  data-bs-parent="#accordionExamplethree"
+                >
+                  <div class="accordion-body">
+                    <ul class="mb-0 list-unstyled">
+                      <li class="my-2 text-muted">
+                        <i
+                          data-feather="arrow-right-circle"
+                          class="fea icon-ex-md text-primary me-2"
+                        ></i
+                        >cPanel (only with CentOS 7)
+                      </li>
+                      <li class="my-2 text-muted">
+                        <i
+                          data-feather="arrow-right-circle"
+                          class="fea icon-ex-md text-primary me-2"
+                        ></i
+                        >Plesk Onyx
+                      </li>
+                      <li class="my-2 text-muted">
+                        <i
+                          data-feather="arrow-right-circle"
+                          class="fea icon-ex-md text-primary me-2"
+                        ></i
+                        >WHMCS
+                      </li>
+                      <li class="my-2 text-muted">
+                        <i
+                          data-feather="arrow-right-circle"
+                          class="fea icon-ex-md text-primary me-2"
+                        ></i
+                        >SAN Storage
+                      </li>
+                      <li class="my-2 text-muted">
+                        <i
+                          data-feather="arrow-right-circle"
+                          class="fea icon-ex-md text-primary me-2"
+                        ></i
+                        >CDN
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-2 bg-white rounded shadow accordion-item">
+                <h2 class="accordion-header" id="headingFouro">
+                  <button
+                    class="border-0 accordion-button bg-light collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFouro"
+                    aria-expanded="false"
+                    aria-controls="collapseFouro"
+                  >
+                    Semi-Managed Support
+                  </button>
+                </h2>
+                <div
+                  id="collapseFouro"
+                  class="border-0 accordion-collapse collapse"
+                  aria-labelledby="headingFouro"
+                  data-bs-parent="#accordionExamplethree"
+                >
+                  <div class="accordion-body">
+                    <ul class="mb-0 list-unstyled">
+                      <li class="my-2 text-muted">
+                        <i
+                          data-feather="arrow-right-circle"
+                          class="fea icon-ex-md text-primary me-2"
+                        ></i
+                        >Free cPanel Migrations
+                      </li>
+                      <li class="my-2 text-muted">
+                        <i
+                          data-feather="arrow-right-circle"
+                          class="fea icon-ex-md text-primary me-2"
+                        ></i
+                        >Plesk Migrations
+                      </li>
+                      <li class="my-2 text-muted">
+                        <i
+                          data-feather="arrow-right-circle"
+                          class="fea icon-ex-md text-primary me-2"
+                        ></i
+                        >Boot, Login, Network, Hardware, Rebuild
+                      </li>
+                      <li class="my-2 text-muted">
+                        <i
+                          data-feather="arrow-right-circle"
+                          class="fea icon-ex-md text-primary me-2"
+                        ></i
+                        >Basic server optimisation, patching & hardening
+                      </li>
+                      <li class="my-2 text-muted">
+                        <i
+                          data-feather="arrow-right-circle"
+                          class="fea icon-ex-md text-primary me-2"
+                        ></i
+                        >Basic setup of Applications & Firewall
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-5 section-title" id="general">
+              <h4>General Questions</h4>
+            </div>
+
+            <div class="pt-2 mt-4 accordion" id="accordionExample">
+              <div class="bg-white rounded shadow accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="border-0 accordion-button bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    What is Dedicated Server?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="border-0 accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some
+                    form.
+                  </div>
+                </div>
+              </div>
+              <div class="mt-2 bg-white rounded shadow accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="border-0 accordion-button bg-light collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Do I need a Dedicated Server?
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="border-0 accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some
+                    form.
+                  </div>
+                </div>
+              </div>
+              <div class="mt-2 bg-white rounded shadow accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="border-0 accordion-button bg-light collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    How can I get my website transferred for free?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="border-0 accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some
+                    form.
+                  </div>
+                </div>
+              </div>
+              <div class="mt-2 bg-white rounded shadow accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button
+                    class="border-0 accordion-button bg-light collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    What level of access do I get with my Dedicated Server?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="border-0 accordion-collapse collapse"
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some
+                    form.
+                  </div>
+                </div>
+              </div>
+              <div class="mt-2 bg-white rounded shadow accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                  <button
+                    class="border-0 accordion-button bg-light collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive"
+                  >
+                    Which control panels are provided?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFive"
+                  class="border-0 accordion-collapse collapse"
+                  aria-labelledby="headingFive"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some
+                    form.
+                  </div>
+                </div>
+              </div>
+              <div class="mt-2 bg-white rounded shadow accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                  <button
+                    class="border-0 accordion-button bg-light collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseSix"
+                    aria-expanded="false"
+                    aria-controls="collapseSix"
+                  >
+                    Do you offer any billing panels?
+                  </button>
+                </h2>
+                <div
+                  id="collapseSix"
+                  class="border-0 accordion-collapse collapse"
+                  aria-labelledby="headingSix"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some
+                    form.
+                  </div>
+                </div>
+              </div>
+              <div class="mt-2 bg-white rounded shadow accordion-item">
+                <h2 class="accordion-header" id="headingSeven">
+                  <button
+                    class="border-0 accordion-button bg-light collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseSeven"
+                    aria-expanded="false"
+                    aria-controls="collapseSeven"
+                  >
+                    How long will it take for my server to be ready for use?
+                  </button>
+                </h2>
+                <div
+                  id="collapseSeven"
+                  class="border-0 accordion-collapse collapse"
+                  aria-labelledby="headingSeven"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some
+                    form.
+                  </div>
+                </div>
+              </div>
+              <div class="mt-2 bg-white rounded shadow accordion-item">
+                <h2 class="accordion-header" id="headingEight">
+                  <button
+                    class="border-0 accordion-button bg-light collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseEight"
+                    aria-expanded="false"
+                    aria-controls="collapseEight"
+                  >
+                    How do I access my Dedicated Server?
+                  </button>
+                </h2>
+                <div
+                  id="collapseEight"
+                  class="border-0 accordion-collapse collapse"
+                  aria-labelledby="headingEight"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some
+                    form.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-5 section-title" id="payment">
+              <h4>Payments Questions</h4>
+            </div>
+
+            <div class="pt-2 mt-4 accordion" id="accordionExampletwo">
+              <div class="bg-white rounded shadow accordion-item">
+                <h2 class="accordion-header" id="headingfiveo">
+                  <button
+                    class="border-0 accordion-button bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsefiveo"
+                    aria-expanded="true"
+                    aria-controls="collapsefiveo"
+                  >
+                    How our Hostick work ?
+                  </button>
+                </h2>
+                <div
+                  id="collapsefiveo"
+                  class="border-0 accordion-collapse collapse show"
+                  aria-labelledby="headingfiveo"
+                  data-bs-parent="#accordionExampletwo"
+                >
+                  <div class="accordion-body">
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some
+                    form.
+                  </div>
+                </div>
+              </div>
+              <div class="mt-2 bg-white rounded shadow accordion-item">
+                <h2 class="accordion-header" id="headingsix">
+                  <button
+                    class="border-0 accordion-button bg-light collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsesix"
+                    aria-expanded="false"
+                    aria-controls="collapsesix"
+                  >
+                    What is the main process open account ?
+                  </button>
+                </h2>
+                <div
+                  id="collapsesix"
+                  class="border-0 accordion-collapse collapse"
+                  aria-labelledby="headingsix"
+                  data-bs-parent="#accordionExampletwo"
+                >
+                  <div class="accordion-body">
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some
+                    form.
+                  </div>
+                </div>
+              </div>
+              <div class="mt-2 bg-white rounded shadow accordion-item">
+                <h2 class="accordion-header" id="headingseven">
+                  <button
+                    class="border-0 accordion-button bg-light collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseseven"
+                    aria-expanded="false"
+                    aria-controls="collapseseven"
+                  >
+                    How to make unlimited data entry ?
+                  </button>
+                </h2>
+                <div
+                  id="collapseseven"
+                  class="border-0 accordion-collapse collapse"
+                  aria-labelledby="headingseven"
+                  data-bs-parent="#accordionExampletwo"
+                >
+                  <div class="accordion-body">
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some
+                    form.
+                  </div>
+                </div>
+              </div>
+              <div class="mt-2 bg-white rounded shadow accordion-item">
+                <h2 class="accordion-header" id="headingeight">
+                  <button
+                    class="border-0 accordion-button bg-light collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseeight"
+                    aria-expanded="false"
+                    aria-controls="collapseeight"
+                  >
+                    Is Hostick safer to use with my account ?
+                  </button>
+                </h2>
+                <div
+                  id="collapseeight"
+                  class="border-0 accordion-collapse collapse"
+                  aria-labelledby="headingeight"
+                  data-bs-parent="#accordionExampletwo"
+                >
+                  <div class="accordion-body">
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some
+                    form.
+                  </div>
+                </div>
+              </div>
+              <div class="mt-2 bg-white rounded shadow accordion-item">
+                <h2 class="accordion-header" id="headingnine">
+                  <button
+                    class="border-0 accordion-button bg-light collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsenine"
+                    aria-expanded="false"
+                    aria-controls="collapsenine"
+                  >
+                    How can i contact your technical team ?
+                  </button>
+                </h2>
+                <div
+                  id="collapsenine"
+                  class="border-0 accordion-collapse collapse"
+                  aria-labelledby="headingnine"
+                  data-bs-parent="#accordionExampletwo"
+                >
+                  <div class="accordion-body">
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some
+                    form.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+      <!--end container-->
+    </section>
+    <!--end section-->
+    <!-- End -->
+
+    <!-- Footer Start -->
+    <footer class="footer bg-footer">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="section-title text-md-center">
+              <h4 class="mb-0 text-light title-dark">Get In Touch !</h4>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+
+        <div class="mt-3 row justify-content-center">
+          <div class="pt-2 mt-4 col-md-4">
+            <div class="text-md-center">
+              <div class="icon">
+                <i
+                  data-feather="mail"
+                  class="fea icon-md text-light title-dark"
+                ></i>
+              </div>
+              <div class="mt-2 content">
+                <h5 class="title text-light title-dark">Email</h5>
+                <a href="mailto:contact@example.com" class="text-foot"
+                  >contact@example.com</a
+                >
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+
+          <div class="pt-2 mt-4 col-md-4">
+            <div class="text-md-center">
+              <div class="icon">
+                <i
+                  data-feather="phone"
+                  class="fea icon-md text-light title-dark"
+                ></i>
+              </div>
+              <div class="mt-2 content">
+                <h5 class="title text-light title-dark">Phone</h5>
+                <a href="tel:+152534-468-854" class="text-foot"
+                  >+152 534-468-854</a
+                >
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+
+          <div class="pt-2 mt-4 col-md-4">
+            <div class="text-md-center">
+              <div class="icon">
+                <i
+                  data-feather="map-pin"
+                  class="fea icon-md text-light title-dark"
+                ></i>
+              </div>
+              <div class="mt-2 content">
+                <h5 class="title text-light title-dark">Location</h5>
+                <a href="#" class="text-foot">Australia</a>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+      <!--end container-->
+
+      <div class="container mt-5">
+        <div class="footer-bar">
+          <div class="mt-5 row">
+            <div class="col-lg-4 col-md-12">
+              <a class="logo-footer h4 mouse-down text-light" href="#home">
+                <img src="images/logo-light.png" height="20" alt="" />
+              </a>
+              <p class="mt-4 text-foot">
+                There is now an abundance of <br />
+                readable dummy texts. These are is required purely to fill a
+                space.
+              </p>
+              <ul class="mt-4 mb-0 list-unstyled social-icon foot-social-icon">
+                <li class="list-inline-item">
+                  <a href="javascript:void(0)" class="rounded"
+                    ><i
+                      data-feather="facebook"
+                      class="fea icon-sm fea-social"
+                    ></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="javascript:void(0)" class="rounded"
+                    ><i
+                      data-feather="instagram"
+                      class="fea icon-sm fea-social"
+                    ></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="javascript:void(0)" class="rounded"
+                    ><i
+                      data-feather="twitter"
+                      class="fea icon-sm fea-social"
+                    ></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="javascript:void(0)" class="rounded"
+                    ><i
+                      data-feather="linkedin"
+                      class="fea icon-sm fea-social"
+                    ></i
+                  ></a>
+                </li>
+              </ul>
+              <!--end icon-->
+            </div>
+
+            <div class="col-lg-8">
+              <div class="row">
+                <div class="pt-2 mt-4 col-lg-3 col-md-4 col-12 mt-lg-0 pt-lg-0">
+                  <h5 class="mb-0 text-light title-dark footer-head fw-normal">
+                    Hosting
+                  </h5>
+                  <ul class="mt-4 list-unstyled footer-list">
+                    <li>
+                      <a href="javascript:void(0)" class="text-foot"
+                        ><i class="mdi mdi-chevron-right me-1"></i>Shared
+                        Hosting</a
+                      >
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)" class="text-foot"
+                        ><i class="mdi mdi-chevron-right me-1"></i>VPS
+                        Hosting</a
+                      >
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)" class="text-foot"
+                        ><i class="mdi mdi-chevron-right me-1"></i>Dedicated
+                        Hosting</a
+                      >
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)" class="text-foot"
+                        ><i class="mdi mdi-chevron-right me-1"></i>Cloud
+                        Hosting</a
+                      >
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)" class="text-foot"
+                        ><i class="mdi mdi-chevron-right me-1"></i>Reseller
+                        Hosting</a
+                      >
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)" class="text-foot"
+                        ><i class="mdi mdi-chevron-right me-1"></i>Domain
+                        Name</a
+                      >
+                    </li>
+                  </ul>
                 </div>
 
-                <ul class="buy-button list-inline mb-0">
-                    <li class="list-inline-item mb-0 me-1">
-                        <div class="dropdown">
-                            <button type="button" class="btn dropdown-toggle border-0 p-0" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="uil uil-search text-dark fs-5 align-middle"></i>
-                            </button>
-                            <div class="dropdown-menu dd-menu dropdown-menu-end bg-white shadow rounded border-0 mt-3 p-0" style="width: 300px;">
-                                <div class="search-bar">
-                                    <div id="itemSearch" class="menu-search mb-0">
-                                        <form role="search" method="get" id="searchItemform" class="searchform">
-                                            <input type="text" class="form-control border rounded" name="s" id="searchItem" placeholder="Search...">
-                                            <input type="submit" id="searchItemsubmit" value="Search">
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="pt-2 mt-4 col-lg-3 col-md-4 col-12 mt-lg-0 pt-lg-0">
+                  <h5 class="mb-0 text-light title-dark footer-head fw-normal">
+                    About
+                  </h5>
+                  <ul class="mt-4 list-unstyled footer-list">
+                    <li>
+                      <a href="javascript:void(0)" class="text-foot"
+                        ><i class="mdi mdi-chevron-right me-1"></i>About us</a
+                      >
                     </li>
-                    <li class="list-inline-item mb-0">
-                        <div class="dropdown">
-                            <button type="button" class="btn btn-icon rounded-circle btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-feather="shopping-cart" class="icons"></i></button>
-                            <div class="dropdown-menu dd-menu dropdown-menu-end bg-white shadow rounded border-0 mt-3 p-4" style="width: 300px;">
-                                <div class="pb-4">
-                                    <a href="javascript:void(0)" class="d-flex align-items-center">
-                                        <img src="images/shop/com.jpg" class="shadow rounded" style="max-height: 64px;" alt="">
-                                        <div class="flex-1 text-start ms-3">
-                                            <h6 class="text-dark mb-0">.com</h6>
-                                            <p class="text-muted mb-0">$10 X 2</p>
-                                        </div>
-                                        <h6 class="text-dark mb-0">$10</h6>
-                                    </a>
-                                </div>
-
-                                <div class="d-flex align-items-center justify-content-between pt-4 border-top">
-                                    <h6 class="text-dark mb-0">Total($):</h6>
-                                    <h6 class="text-dark mb-0">$10</h6>
-                                </div>
-
-                                <div class="mt-3 text-center">
-                                    <a href="javascript:void(0)" class="btn btn-primary me-2">View Cart</a>
-                                    <a href="javascript:void(0)" class="btn btn-primary">Checkout</a>
-                                </div>
-                                <p class="text-muted text-start mt-1 mb-0">*T&C Apply</p>
-                            </div>
-                        </div>
+                    <li>
+                      <a href="javascript:void(0)" class="text-foot"
+                        ><i class="mdi mdi-chevron-right me-1"></i>Contact us</a
+                      >
                     </li>
-                    <li class="list-inline-item mb-0">
-                        <a href="#" class="btn btn-icon rounded-circle btn-primary" data-bs-toggle="modal" data-bs-target="#wishlist"><i data-feather="heart" class="icons"></i></a>
+                    <li>
+                      <a href="javascript:void(0)" class="text-foot"
+                        ><i class="mdi mdi-chevron-right me-1"></i>Terms &
+                        Services</a
+                      >
                     </li>
-                    <li class="list-inline-item mb-0">
-                        <div class="dropdown dropdown-primary">
-                            <button type="button" class="btn btn-icon rounded-circle btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-feather="user" class="icons"></i></button>
-                            <div class="dropdown-menu dd-menu dropdown-menu-end bg-white shadow rounded border-0 mt-3 py-3" style="width: 200px;">
-                                <a class="dropdown-item text-dark" href="my-account.html"><i class="uil uil-user align-middle me-1"></i> Account</a>
-                                <a class="dropdown-item text-dark" href="#"><i class="uil uil-clipboard-notes align-middle me-1"></i> Order History</a>
-                                <a class="dropdown-item text-dark" href="#"><i class="uil uil-arrow-circle-down align-middle me-1"></i> Download</a>
-                                <div class="dropdown-divider my-3 border-top"></div>
-                                <a class="dropdown-item text-dark" href="page-login.html"><i class="uil uil-sign-out-alt align-middle me-1"></i> Logout</a>
-                            </div>
-                        </div>
+                    <li>
+                      <a href="javascript:void(0)" class="text-foot"
+                        ><i class="mdi mdi-chevron-right me-1"></i>Privacy
+                        Policy</a
+                      >
                     </li>
-                </ul><!--end login button-->
-        
-                <div id="navigation">
-                    <!-- Navigation Menu-->   
-                    <ul class="navigation-menu">
-                        <li class="has-submenu parent-parent-menu-item">
-                            <a href="javascript:void(0)" class="sub-menu-item">Home</a><span class="menu-arrow"></span>
-                            <ul class="submenu">
-                                <li><a href="index.html" class="sub-menu-item">Home One</a></li>
-                                <li><a href="index-two.html" class="sub-menu-item">Home Two</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="has-submenu parent-parent-menu-item">
-                            <a href="javascript:void(0)">Hosting</a><span class="menu-arrow"></span>
-                            <ul class="submenu megamenu">
-                                <li>
-                                    <ul>
-                                        <li><a href="hosting-shared.html" class="sub-menu-item"><img src="images/icons/shared.svg" class="avatar avatar-ex-sm me-2" alt=""> Shared Hosting</a></li>
-                                        <li><a href="hosting-vps.html" class="sub-menu-item"><img src="images/icons/vps.svg" class="avatar avatar-ex-sm me-2" alt=""> VPS Hosting</a></li>     
-                                        <li><a href="hosting-dedicated.html" class="sub-menu-item"><img src="images/icons/dedicated.svg" class="avatar avatar-ex-sm me-2" alt=""> Dedicated Server</a></li> 
-                                        <li><a href="hosting-cloud.html" class="sub-menu-item"><img src="images/icons/cloud.svg" class="avatar avatar-ex-sm me-2" alt=""> Cloud Hosting</a></li>
-                                        <li><a href="hosting-domain.html" class="sub-menu-item"><img src="images/icons/domain.svg" class="avatar avatar-ex-sm me-2" alt=""> Domain Name</a></li>
-                                    </ul>
-                                </li>
-
-                                <li>
-                                    <ul>
-                                        <li><a href="hosting-web.html" class="sub-menu-item"><img src="images/icons/web.svg" class="avatar avatar-ex-sm me-2" alt=""> Web Hosting</a></li>
-                                        <li><a href="hosting-reseller.html" class="sub-menu-item"><img src="images/icons/reseller.svg" class="avatar avatar-ex-sm me-2" alt=""> Reseller Hosting</a></li>  
-                                        <li><a href="hosting-wordpress.html" class="sub-menu-item"><img src="images/icons/wordpress.svg" class="avatar avatar-ex-sm me-2" alt=""> Worpress Server</a></li>  
-                                        <li><a href="hosting-email.html" class="sub-menu-item"><img src="images/icons/email.svg" class="avatar avatar-ex-sm me-2" alt=""> Email Server</a></li> 
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-        
-                        <li class="has-submenu parent-parent-menu-item">
-                            <a href="javascript:void(0)">Pages</a><span class="menu-arrow"></span>
-                            <ul class="submenu">
-                                <li><a href="page-about.html" class="sub-menu-item">Company</a></li>
-                                <li class="has-submenu parent-menu-item">
-                                    <a href="javascript:void(0)"> Blog</a><span class="submenu-arrow"></span>
-                                    <ul class="submenu">
-                                        <li><a href="page-blog.html" class="sub-menu-item">Blog</a></li>
-                                        <li><a href="page-blog-sidebar.html" class="sub-menu-item">Blog Sidebar</a></li>
-                                        <li><a href="page-blog-single.html" class="sub-menu-item">Single Blog</a></li>
-                                    </ul>  
-                                </li>
-                                <li><a href="page-faqs.html" class="sub-menu-item">FAQs</a></li>
-                                <li><a href="page-support.html" class="sub-menu-item">Support Center</a></li>
-                                <li><a href="page-privacy.html" class="sub-menu-item">Privacy Policy</a></li>
-                                <li><a href="page-terms.html" class="sub-menu-item">Terms & Conditions</a></li>
-                                <li class="has-submenu parent-menu-item">
-                                    <a href="javascript:void(0)"> Auth Pages</a><span class="submenu-arrow"></span>
-                                    <ul class="submenu">
-                                        <li><a href="page-login.html" class="sub-menu-item">Login</a></li>
-                                        <li><a href="page-signup.html" class="sub-menu-item">Signup</a></li>
-                                        <li><a href="page-forgot-password.html" class="sub-menu-item">Forgot Password</a></li>
-                                    </ul>  
-                                </li>
-                                <li><a href="page-404.html" class="sub-menu-item">404</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="has-submenu parent-parent-menu-item">
-                            <a href="javascript:void(0)" class="sub-menu-item">Domains</a><span class="menu-arrow"></span>
-                            <ul class="submenu">
-                                <li><a href="domain-listing.html" class="sub-menu-item">Domain Listing</a></li>
-                                <li><a href="domian-detail.html" class="sub-menu-item">Domain Detail</a></li>
-                                <li><a href="cart.html" class="sub-menu-item">Cart</a></li>
-                                <li><a href="checkouts.html" class="sub-menu-item">Checkout</a></li>
-                                <li><a href="my-account.html" class="sub-menu-item">Account</a></li>
-                            </ul>
-                        </li>
-
-                        <li><a href="contact.html" class="sub-menu-item">Contact</a></li>
-                        <li><a href="https://1.envato.market/hostick-template" target="_blank" class="sub-menu-item">Download</a></li>
-                    </ul><!--end navigation menu-->
-                </div><!--end navigation-->
-            </div><!--end container-->
-        </header><!--end header-->
-        <!-- Navbar End -->
-
-        <!-- Home Start -->
-        <section class="bg-half-170 d-table w-100 bg-light" style="background: url('images/bg/page.png') top center;" id="home">
-            <div class="container">
-                <div class="row mt-5">
-                    <div class="col-lg-12">
-                        <div class="title-heading text-center text-md-start">
-                            <h3>FAQs</h3>
-                            <p class="text-muted para-desc mt-3 mb-0">Question & Answer about hosting services</p> 
-                            <nav aria-label="breadcrumb" class="d-inline-block mt-4">
-                                <ul class="breadcrumb mb-0">
-                                    <li class="breadcrumb-item"><a href="index.html">Hostick</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">FAQs</li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div><!--end col-->
-                </div><!--end row-->
-            </div> <!--end container-->
-        </section><!--end section-->
-        <div class="position-relative">
-            <div class="shape overflow-hidden text-white">
-                <svg viewBox="0 0 1000 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M 0 0 c 0 0 200 50 500 50 s 500 -50 500 -50 v 101 h -1000 v -100 z" fill="currentColor"></path>
-                </svg>
-            </div>
-        </div>
-        <!-- Home End -->
-
-        <!-- Start -->
-        <section class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-5 col-12 d-none d-md-block">
-                        <div class="rounded-pill shadow p-4 component-wrapper">
-                            <ul class="list-unstyled mb-0">
-                                <li class="mb-4"><a href="#tech" class="mouse-down h6 text-dark">Technical Questions</a></li>
-                                <li class="mb-4"><a href="#general" class="mouse-down h6 text-dark">General Questions</a></li>
-                                <li><a href="#payment" class="mouse-down h6 text-dark">Payments Questions</a></li>
-                            </ul>
-                        </div>
-                    </div><!--end col-->
-
-                    <div class="col-lg-8 col-md-7 col-12">
-                        <div class="section-title" id="tech">
-                            <h4>Technical Questions</h4>
-                        </div>
-                        <div class="accordion mt-4 pt-2" id="accordionExamplethree">
-                            <div class="accordion-item rounded shadow bg-white">
-                                <h2 class="accordion-header" id="headingOneo">
-                                    <button class="accordion-button border-0 bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneo"
-                                        aria-expanded="true" aria-controls="collapseOneo">
-                                        Features
-                                    </button>
-                                </h2>
-                                <div id="collapseOneo" class="accordion-collapse border-0 collapse show" aria-labelledby="headingOneo"
-                                    data-bs-parent="#accordionExamplethree">
-                                    <div class="accordion-body">
-                                        <ul class="list-unstyled mb-0">
-                                            <li class="text-muted my-2"><i data-feather="arrow-right-circle" class="fea icon-ex-md text-primary me-2"></i>CentOS 6/CentOS 7/Ubuntu 16.04/Fedora 23/Debian 8</li>
-                                            <li class="text-muted my-2"><i data-feather="arrow-right-circle" class="fea icon-ex-md text-primary me-2"></i>Multiple locations</li>
-                                            <li class="text-muted my-2"><i data-feather="arrow-right-circle" class="fea icon-ex-md text-primary me-2"></i>Private Network</li>
-                                            <li class="text-muted my-2"><i data-feather="arrow-right-circle" class="fea icon-ex-md text-primary me-2"></i>Quick VNC access</li>
-                                            <li class="text-muted my-2"><i data-feather="arrow-right-circle" class="fea icon-ex-md text-primary me-2"></i>rDNS support</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item rounded shadow bg-white mt-2">
-                                <h2 class="accordion-header" id="headingTwoo">
-                                    <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseTwoo" aria-expanded="false" aria-controls="collapseTwoo">
-                                        Performance
-                                    </button>
-                                </h2>
-                                <div id="collapseTwoo" class="accordion-collapse border-0 collapse" aria-labelledby="headingTwoo"
-                                    data-bs-parent="#accordionExamplethree">
-                                    <div class="accordion-body">
-                                        <ul class="list-unstyled mb-0">
-                                            <li class="text-muted my-2"><i data-feather="arrow-right-circle" class="fea icon-ex-md text-primary me-2"></i>Top notch network built with Tier 1 ISPs</li>
-                                            <li class="text-muted my-2"><i data-feather="arrow-right-circle" class="fea icon-ex-md text-primary me-2"></i>SSD Storage</li>
-                                            <li class="text-muted my-2"><i data-feather="arrow-right-circle" class="fea icon-ex-md text-primary me-2"></i>Tier IV Data Center</li>
-                                            <li class="text-muted my-2"><i data-feather="arrow-right-circle" class="fea icon-ex-md text-primary me-2"></i>Neustar’s DDoS protection</li>
-                                            <li class="text-muted my-2"><i data-feather="arrow-right-circle" class="fea icon-ex-md text-primary me-2"></i>Backed by Juniper Networks</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item rounded shadow bg-white mt-2">
-                                <h2 class="accordion-header" id="headingThreeo">
-                                    <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseThreeo" aria-expanded="false" aria-controls="collapseThreeo">
-                                        Boosters
-                                    </button>
-                                </h2>
-                                <div id="collapseThreeo" class="accordion-collapse border-0 collapse" aria-labelledby="headingThreeo"
-                                    data-bs-parent="#accordionExamplethree">
-                                    <div class="accordion-body">
-                                        <ul class="list-unstyled mb-0">
-                                            <li class="text-muted my-2"><i data-feather="arrow-right-circle" class="fea icon-ex-md text-primary me-2"></i>cPanel (only with CentOS 7)</li>
-                                            <li class="text-muted my-2"><i data-feather="arrow-right-circle" class="fea icon-ex-md text-primary me-2"></i>Plesk Onyx</li>
-                                            <li class="text-muted my-2"><i data-feather="arrow-right-circle" class="fea icon-ex-md text-primary me-2"></i>WHMCS</li>
-                                            <li class="text-muted my-2"><i data-feather="arrow-right-circle" class="fea icon-ex-md text-primary me-2"></i>SAN Storage</li>
-                                            <li class="text-muted my-2"><i data-feather="arrow-right-circle" class="fea icon-ex-md text-primary me-2"></i>CDN</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item rounded shadow bg-white mt-2">
-                                <h2 class="accordion-header" id="headingFouro">
-                                    <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseFouro" aria-expanded="false" aria-controls="collapseFouro">
-                                        Semi-Managed Support
-                                    </button>
-                                </h2>
-                                <div id="collapseFouro" class="accordion-collapse border-0 collapse" aria-labelledby="headingFouro"
-                                    data-bs-parent="#accordionExamplethree">
-                                    <div class="accordion-body">
-                                        <ul class="list-unstyled mb-0">
-                                            <li class="text-muted my-2"><i data-feather="arrow-right-circle" class="fea icon-ex-md text-primary me-2"></i>Free cPanel Migrations</li>
-                                            <li class="text-muted my-2"><i data-feather="arrow-right-circle" class="fea icon-ex-md text-primary me-2"></i>Plesk Migrations</li>
-                                            <li class="text-muted my-2"><i data-feather="arrow-right-circle" class="fea icon-ex-md text-primary me-2"></i>Boot, Login, Network, Hardware, Rebuild</li>
-                                            <li class="text-muted my-2"><i data-feather="arrow-right-circle" class="fea icon-ex-md text-primary me-2"></i>Basic server optimisation, patching & hardening</li>
-                                            <li class="text-muted my-2"><i data-feather="arrow-right-circle" class="fea icon-ex-md text-primary me-2"></i>Basic setup of Applications & Firewall</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="section-title mt-5" id="general">
-                            <h4>General Questions</h4>
-                        </div>
-
-                        <div class="accordion mt-4 pt-2" id="accordionExample">
-                            <div class="accordion-item rounded shadow bg-white">
-                                <h2 class="accordion-header" id="headingOne">
-                                    <button class="accordion-button border-0 bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                        aria-expanded="true" aria-controls="collapseOne">
-                                        What is Dedicated Server?
-                                    </button>
-                                </h2>
-                                <div id="collapseOne" class="accordion-collapse border-0 collapse show" aria-labelledby="headingOne"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item rounded shadow bg-white mt-2">
-                                <h2 class="accordion-header" id="headingTwo">
-                                    <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Do I need a Dedicated Server?
-                                    </button>
-                                </h2>
-                                <div id="collapseTwo" class="accordion-collapse border-0 collapse" aria-labelledby="headingTwo"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item rounded shadow bg-white mt-2">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        How can I get my website transferred for free?
-                                    </button>
-                                </h2>
-                                <div id="collapseThree" class="accordion-collapse border-0 collapse" aria-labelledby="headingThree"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item rounded shadow bg-white mt-2">
-                                <h2 class="accordion-header" id="headingFour">
-                                    <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        What level of access do I get with my Dedicated Server?
-                                    </button>
-                                </h2>
-                                <div id="collapseFour" class="accordion-collapse border-0 collapse" aria-labelledby="headingFour"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item rounded shadow bg-white mt-2">
-                                <h2 class="accordion-header" id="headingFive">
-                                    <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                        Which control panels are provided?
-                                    </button>
-                                </h2>
-                                <div id="collapseFive" class="accordion-collapse border-0 collapse" aria-labelledby="headingFive"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item rounded shadow bg-white mt-2">
-                                <h2 class="accordion-header" id="headingSix">
-                                    <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                        Do you offer any billing panels?
-                                    </button>
-                                </h2>
-                                <div id="collapseSix" class="accordion-collapse border-0 collapse" aria-labelledby="headingSix"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item rounded shadow bg-white mt-2">
-                                <h2 class="accordion-header" id="headingSeven">
-                                    <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                        How long will it take for my server to be ready for use?
-                                    </button>
-                                </h2>
-                                <div id="collapseSeven" class="accordion-collapse border-0 collapse" aria-labelledby="headingSeven"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item rounded shadow bg-white mt-2">
-                                <h2 class="accordion-header" id="headingEight">
-                                    <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                        How do I access my Dedicated Server?
-                                    </button>
-                                </h2>
-                                <div id="collapseEight" class="accordion-collapse border-0 collapse" aria-labelledby="headingEight"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="section-title mt-5" id="payment">
-                            <h4>Payments Questions</h4>
-                        </div>
-
-                        <div class="accordion mt-4 pt-2" id="accordionExampletwo">
-                            <div class="accordion-item rounded shadow bg-white">
-                                <h2 class="accordion-header" id="headingfiveo">
-                                    <button class="accordion-button border-0 bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefiveo"
-                                        aria-expanded="true" aria-controls="collapsefiveo">
-                                        How our Hostick work ?
-                                    </button>
-                                </h2>
-                                <div id="collapsefiveo" class="accordion-collapse border-0 collapse show" aria-labelledby="headingfiveo"
-                                    data-bs-parent="#accordionExampletwo">
-                                    <div class="accordion-body">
-                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item rounded shadow bg-white mt-2">
-                                <h2 class="accordion-header" id="headingsix">
-                                    <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
-                                        What is the main process open account ?
-                                    </button>
-                                </h2>
-                                <div id="collapsesix" class="accordion-collapse border-0 collapse" aria-labelledby="headingsix"
-                                    data-bs-parent="#accordionExampletwo">
-                                    <div class="accordion-body">
-                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item rounded shadow bg-white mt-2">
-                                <h2 class="accordion-header" id="headingseven">
-                                    <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
-                                        How to make unlimited data entry ?
-                                    </button>
-                                </h2>
-                                <div id="collapseseven" class="accordion-collapse border-0 collapse" aria-labelledby="headingseven"
-                                    data-bs-parent="#accordionExampletwo">
-                                    <div class="accordion-body">
-                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item rounded shadow bg-white mt-2">
-                                <h2 class="accordion-header" id="headingeight">
-                                    <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseeight" aria-expanded="false" aria-controls="collapseeight">
-                                        Is Hostick safer to use with my account ?
-                                    </button>
-                                </h2>
-                                <div id="collapseeight" class="accordion-collapse border-0 collapse" aria-labelledby="headingeight"
-                                    data-bs-parent="#accordionExampletwo">
-                                    <div class="accordion-body">
-                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item rounded shadow bg-white mt-2">
-                                <h2 class="accordion-header" id="headingnine">
-                                    <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapsenine" aria-expanded="false" aria-controls="collapsenine">
-                                        How can i contact your technical team ?
-                                    </button>
-                                </h2>
-                                <div id="collapsenine" class="accordion-collapse border-0 collapse" aria-labelledby="headingnine"
-                                    data-bs-parent="#accordionExampletwo">
-                                    <div class="accordion-body">
-                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                </div><!--end row-->
-            </div><!--end container-->
-        </section><!--end section-->
-        <!-- End -->
-
-        <!-- Footer Start -->
-        <footer class="footer bg-footer">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12">
-                        <div class="section-title text-md-center">
-                            <h4 class="text-light title-dark mb-0">Get In Touch !</h4>
-                        </div>
-                    </div><!--end col-->
-                </div><!--end row-->
-
-                <div class="row mt-3 justify-content-center">
-                    <div class="col-md-4 mt-4 pt-2">
-                        <div class="text-md-center">
-                            <div class="icon">
-                                <i data-feather="mail" class="fea icon-md text-light title-dark"></i>
-                            </div>
-                            <div class="content mt-2">
-                                <h5 class="title text-light title-dark">Email</h5>
-                                <a href="mailto:contact@example.com" class="text-foot">contact@example.com</a>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-
-                    <div class="col-md-4 mt-4 pt-2">
-                        <div class="text-md-center">
-                            <div class="icon">
-                                <i data-feather="phone" class="fea icon-md text-light title-dark"></i>
-                            </div>
-                            <div class="content mt-2">
-                                <h5 class="title text-light title-dark">Phone</h5>
-                                <a href="tel:+152534-468-854" class="text-foot">+152 534-468-854</a>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-
-                    <div class="col-md-4 mt-4 pt-2">
-                        <div class="text-md-center">
-                            <div class="icon">
-                                <i data-feather="map-pin" class="fea icon-md text-light title-dark"></i>
-                            </div>
-                            <div class="content mt-2">
-                                <h5 class="title text-light title-dark">Location</h5>
-                                <a href="#" class="text-foot">Australia</a>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                </div><!--end row-->
-            </div><!--end container-->
-
-            <div class="container mt-5">
-                <div class="footer-bar">
-                    <div class="row mt-5">
-                        <div class="col-lg-4 col-md-12">
-                            <a class="logo-footer h4 mouse-down text-light" href="#home">
-                                <img src="images/logo-light.png" height="20" alt="">
-                            </a>
-                            <p class="mt-4 text-foot">There is now an abundance of <br> readable dummy texts. These are is required purely to fill a space.</p>
-                            <ul class="list-unstyled social-icon foot-social-icon mb-0 mt-4">
-                                <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
-                                <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
-                                <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
-                                <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
-                            </ul><!--end icon-->
-                        </div>
-    
-                        <div class="col-lg-8">
-                            <div class="row">
-                                <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2 mt-lg-0 pt-lg-0">
-                                    <h5 class="text-light title-dark footer-head fw-normal mb-0">Hosting</h5>
-                                    <ul class="list-unstyled footer-list mt-4">
-                                        <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i>Shared Hosting</a></li>
-                                        <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i>VPS Hosting</a></li>
-                                        <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i>Dedicated Hosting</a></li>
-                                        <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i>Cloud Hosting</a></li>
-                                        <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i>Reseller Hosting</a></li>
-                                        <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i>Domain Name</a></li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2 mt-lg-0 pt-lg-0">
-                                    <h5 class="text-light title-dark footer-head fw-normal mb-0">About</h5>
-                                    <ul class="list-unstyled footer-list mt-4">
-                                        <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i>About us</a></li>
-                                        <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i>Contact us</a></li>
-                                        <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i>Terms & Services</a></li>
-                                        <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i>Privacy Policy</a></li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="col-lg-6 col-md-4 col-12 mt-4 pt-2 mt-lg-0 pt-lg-0">
-                                    <h5 class="text-light title-dark footer-head fw-normal mb-0">Newsletter</h5>
-                                    <p class="mt-4 text-foot">Sign up and receive the latest tips via email.</p>
-                                    <form>
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <div class="foot-subscribe mb-3 position-relative">
-                                                    <label class="form-label text-foot">Write your email <span class="text-danger">*</span></label>
-                                                    <input type="email" name="email" id="emailsubscribe" class="form-control rounded" placeholder="Your email : " required>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-12">
-                                                <input type="submit" id="submitsubscribe" name="send" class="btn btn-primary w-100" value="Subscribe">
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  </ul>
                 </div>
-            </div>
-        </footer><!--end footer-->
-        <footer class="footer footer-line bg-footer">
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col-sm-6 col-md-7">
-                        <div class="text-sm-start">
-                            <p class="mb-0 text-foot">© <script>document.write(new Date().getFullYear())</script> Hostick. Design with <i class="mdi mdi-heart text-danger"></i> by <a href="https://shreethemes.in/" target="_blank" class="text-reset">Shreethemes</a>.</p>
+
+                <div class="pt-2 mt-4 col-lg-6 col-md-4 col-12 mt-lg-0 pt-lg-0">
+                  <h5 class="mb-0 text-light title-dark footer-head fw-normal">
+                    Newsletter
+                  </h5>
+                  <p class="mt-4 text-foot">
+                    Sign up and receive the latest tips via email.
+                  </p>
+                  <form>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="mb-3 foot-subscribe position-relative">
+                          <label class="form-label text-foot"
+                            >Write your email
+                            <span class="text-danger">*</span></label
+                          >
+                          <input
+                            type="email"
+                            name="email"
+                            id="emailsubscribe"
+                            class="rounded form-control"
+                            placeholder="Your email : "
+                            required
+                          />
                         </div>
-                    </div><!--end col-->
-
-                    <div class="col-sm-6 col-md-5 mt-4 mt-sm-0 pt-2 pt-sm-0">
-                        <ul class="list-unstyled terms-service text-sm-end mb-0">
-                            <li class="list-inline-item mb-0"><a href="page-privacy.html" class="text-foot me-2">Privacy</a></li>
-                            <li class="list-inline-item mb-0"><a href="page-terms.html" class="text-foot me-2">Terms</a></li>
-                            <li class="list-inline-item mb-0"><a href="page-faqs.html" class="text-foot me-2">FAQs</a></li>
-                            <li class="list-inline-item mb-0"><a href="contact.html" class="text-foot">Contact</a></li>
-                        </ul>
-                    </div><!--end col-->
-                </div><!--end row-->
-            </div><!--end container-->
-        </footer><!--end footer-->
-        <!-- Footer End -->
-
-        <!-- Login Modal Content Start -->
-        <div class="modal fade" id="LoginForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
-                <div class="modal-content rounded shadow border-0">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalCenterTitle">Login </h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="col-lg-12">
+                        <input
+                          type="submit"
+                          id="submitsubscribe"
+                          name="send"
+                          class="btn btn-primary w-100"
+                          value="Subscribe"
+                        />
+                      </div>
                     </div>
-                    <div class="modal-body">
-                        <form class="login-form">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="mb-3 position-relative">
-                                        <label class="form-label">Your Email <span class="text-danger">*</span></label>
-                                        <input type="email" class="form-control" name="email" required="" placeholder="Your Email :">
-                                    </div>
-                                </div><!--end col-->
-
-                                <div class="col-12">
-                                    <div class="mb-3 position-relative">
-                                        <label class="form-label">Password <span class="text-danger">*</span></label>
-                                        <input type="password" class="form-control" required="" placeholder="Password :">
-                                    </div>
-                                </div><!--end col-->
-
-                                <div class="col-12">
-                                    <div class="d-flex justify-content-between">
-                                        <div class="mb-3 d-inline-block">
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                                <label class="form-check-label" for="flexCheckDefault">Remember me</label>
-                                            </div>
-                                        </div>
-                                        <p class="forgot-pass mb-0"><a href="page-forgot-password.html" class="text-dark fw-bold">Forgot password ?</a></p>
-                                    </div>
-                                </div><!--end col-->
-                                <div class="col-12 mb-0">
-                                    <button class="btn btn-primary w-100">Sign in</button>
-                                </div><!--end col-->
-                                <div class="col-12 mt-4 text-center">
-                                    <h6 class="mb-0">Or Login With</h6>
-                                </div>
-
-                                <div class="col-12">
-                                    <div class="row">
-                                        <div class="col-sm-6 mt-4">
-                                            <a href="#" class="btn w-100 btn-light bg-facebook"><i class="mdi mdi-facebook"></i> Facebook</a>
-                                        </div>
-                                        <div class="col-sm-6 mt-4">
-                                            <a href="#" class="btn w-100 btn-light"><i class="mdi mdi-google"></i> Google</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 text-center">
-                                    <p class="mb-0 mt-3"><small class="text-dark me-2">Don't have an account ?</small> <a href="page-signup.html" class="text-dark fw-bold">Sign Up</a></p>
-                                </div><!--end col-->
-                            </div><!--end row-->
-                        </form><!--end form-->
-                    </div>
+                  </form>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-        <!-- Login Modal Content End -->
+      </div>
+    </footer>
+    <!--end footer-->
+    <footer class="footer footer-line bg-footer">
+      <div class="container">
+        <div class="text-center row">
+          <div class="col-sm-6 col-md-7">
+            <div class="text-sm-start">
+              <p class="mb-0 text-foot">
+                ©
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                Hostick. Design with
+                <i class="mdi mdi-heart text-danger"></i> by
+                <a
+                  href="https://shreethemes.in/"
+                  target="_blank"
+                  class="text-reset"
+                  >Shreethemes</a
+                >.
+              </p>
+            </div>
+          </div>
+          <!--end col-->
 
-        
+          <div class="pt-2 mt-4 col-sm-6 col-md-5 mt-sm-0 pt-sm-0">
+            <ul class="mb-0 list-unstyled terms-service text-sm-end">
+              <li class="mb-0 list-inline-item">
+                <a href="page-privacy.html" class="text-foot me-2">Privacy</a>
+              </li>
+              <li class="mb-0 list-inline-item">
+                <a href="page-terms.html" class="text-foot me-2">Terms</a>
+              </li>
+              <li class="mb-0 list-inline-item">
+                <a href="page-faqs.html" class="text-foot me-2">FAQs</a>
+              </li>
+              <li class="mb-0 list-inline-item">
+                <a href="contact.html" class="text-foot">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+      <!--end container-->
+    </footer>
+    <!--end footer-->
+    <!-- Footer End -->
 
-        <!-- Back to top -->
-        <a href="#" class="btn btn-icon btn-soft-primary back-to-top"><i data-feather="arrow-up" class="icons"></i></a>
-        <!-- Back to top -->
-
-        <!-- Wishlist Popup Start -->
-        <div class="modal fade" id="wishlist" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content rounded shadow-lg border-0 overflow-hidden">
-                    <div class="modal-body py-5">
-                        <div class="text-center">
-                            <div class="icon d-flex align-items-center justify-content-center bg-soft-danger rounded-circle mx-auto" style="height: 95px; width:95px;">
-                                <h1 class="mb-0"><i class="uil uil-heart-break align-middle"></i></h1>
-                            </div>
-                            <div class="mt-4">
-                                <h4>Your wishlist is empty.</h4>
-                                <p class="text-muted">Create your first wishlist request...</p>
-                                <div class="mt-4">
-                                    <a href="javascript:void(0)" class="btn btn-outline-primary">+ Create new wishlist</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    <!-- Login Modal Content Start -->
+    <div
+      class="modal fade"
+      id="LoginForm"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+        <div class="border-0 rounded shadow modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">Login</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form class="login-form">
+              <div class="row">
+                <div class="col-12">
+                  <div class="mb-3 position-relative">
+                    <label class="form-label"
+                      >Your Email <span class="text-danger">*</span></label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      required=""
+                      placeholder="Your Email :"
+                    />
+                  </div>
                 </div>
-            </div>
+                <!--end col-->
+
+                <div class="col-12">
+                  <div class="mb-3 position-relative">
+                    <label class="form-label"
+                      >Password <span class="text-danger">*</span></label
+                    >
+                    <input
+                      type="password"
+                      class="form-control"
+                      required=""
+                      placeholder="Password :"
+                    />
+                  </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-12">
+                  <div class="d-flex justify-content-between">
+                    <div class="mb-3 d-inline-block">
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          value=""
+                          id="flexCheckDefault"
+                        />
+                        <label class="form-check-label" for="flexCheckDefault"
+                          >Remember me</label
+                        >
+                      </div>
+                    </div>
+                    <p class="mb-0 forgot-pass">
+                      <a
+                        href="page-forgot-password.html"
+                        class="text-dark fw-bold"
+                        >Forgot password ?</a
+                      >
+                    </p>
+                  </div>
+                </div>
+                <!--end col-->
+                <div class="mb-0 col-12">
+                  <button class="btn btn-primary w-100">Sign in</button>
+                </div>
+                <!--end col-->
+                <div class="mt-4 text-center col-12">
+                  <h6 class="mb-0">Or Login With</h6>
+                </div>
+
+                <div class="col-12">
+                  <div class="row">
+                    <div class="mt-4 col-sm-6">
+                      <a href="#" class="btn w-100 btn-light bg-facebook"
+                        ><i class="mdi mdi-facebook"></i> Facebook</a
+                      >
+                    </div>
+                    <div class="mt-4 col-sm-6">
+                      <a href="#" class="btn w-100 btn-light"
+                        ><i class="mdi mdi-google"></i> Google</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="text-center col-12">
+                  <p class="mt-3 mb-0">
+                    <small class="text-dark me-2"
+                      >Don't have an account ?</small
+                    >
+                    <a href="page-signup.html" class="text-dark fw-bold"
+                      >Sign Up</a
+                    >
+                  </p>
+                </div>
+                <!--end col-->
+              </div>
+              <!--end row-->
+            </form>
+            <!--end form-->
+          </div>
         </div>
-        <!-- Wishlist Popup End -->
+      </div>
+    </div>
+    <!-- Login Modal Content End -->
 
-        <!-- Style switcher -->
-        <div id="style-switcher" class="bg-light border p-3 pt-2 pb-2" onclick="toggleSwitcher()">
-            <div>
-                <h6 class="title text-center">Select Your Color</h6>
-                <ul class="pattern">
-                    <li class="list-inline-item">
-                        <a class="color1" href="javascript: void(0);" onclick="setColor('default')"></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="color2" href="javascript: void(0);" onclick="setColor('violet')"></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="color3" href="javascript: void(0);" onclick="setColor('green')"></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="color4" href="javascript: void(0);" onclick="setColor('blue')"></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="color5" href="javascript: void(0);" onclick="setColor('pink')"></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="color6" href="javascript: void(0);" onclick="setColor('purple')"></a>
-                    </li>
-                </ul>
+    <!-- Back to top -->
+    <a href="#" class="btn btn-icon btn-soft-primary back-to-top"
+      ><i data-feather="arrow-up" class="icons"></i
+    ></a>
+    <!-- Back to top -->
 
-                <h6 class="title text-center pt-3 mb-0 border-top">Theme Option</h6>
-                <ul class="text-center list-unstyled mb-0">
-                    <li class="d-grid"><a href="javascript:void(0)" class="btn btn-sm btn-block btn-primary rtl-version t-rtl-light mt-2" onclick="setTheme('style-rtl')">RTL</a></li>
-                    <li class="d-grid"><a href="javascript:void(0)" class="btn btn-sm btn-block btn-primary ltr-version t-ltr-light mt-2" onclick="setTheme('style')">LTR</a></li>
-                    <li class="d-grid"><a href="javascript:void(0)" class="btn btn-sm btn-block btn-primary dark-rtl-version t-rtl-dark mt-2" onclick="setTheme('style-dark-rtl')">RTL</a></li>
-                    <li class="d-grid"><a href="javascript:void(0)" class="btn btn-sm btn-block btn-primary dark-ltr-version t-ltr-dark mt-2" onclick="setTheme('style-dark')">LTR</a></li>
-                    <li class="d-grid"><a href="javascript:void(0)" class="btn btn-sm btn-block btn-dark dark-version t-dark mt-2" onclick="setTheme('style-dark')">Dark</a></li>
-                    <li class="d-grid"><a href="javascript:void(0)" class="btn btn-sm btn-block btn-dark light-version t-light mt-2" onclick="setTheme('style')">Light</a></li>
-                </ul>
+    <!-- Wishlist Popup Start -->
+    <div
+      class="modal fade"
+      id="wishlist"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="overflow-hidden border-0 rounded shadow-lg modal-content">
+          <div class="py-5 modal-body">
+            <div class="text-center">
+              <div
+                class="mx-auto icon d-flex align-items-center justify-content-center bg-soft-danger rounded-circle"
+                style="height: 95px; width: 95px"
+              >
+                <h1 class="mb-0">
+                  <i class="align-middle uil uil-heart-break"></i>
+                </h1>
+              </div>
+              <div class="mt-4">
+                <h4>Your wishlist is empty.</h4>
+                <p class="text-muted">Create your first wishlist request...</p>
+                <div class="mt-4">
+                  <a href="javascript:void(0)" class="btn btn-outline-primary"
+                    >+ Create new wishlist</a
+                  >
+                </div>
+              </div>
             </div>
-            <div class="bottom">
-                <a href="javascript: void(0);" class="settings bg-white shadow d-block"><i class="mdi mdi-cog ms-1 mdi-24px position-absolute mdi-spin text-primary"></i></a>
-            </div>
+          </div>
         </div>
-        <!-- end Style switcher -->
-        
-        <!-- javascript -->
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <!-- Icons -->
-        <script src="js/feather.min.js"></script>
-        <!-- Switcher -->
-        <script src="js/switcher.js"></script>
-        
-        <!-- Main Js -->
-        <script src="js/app.js"></script>
-        
-    </body>
+      </div>
+    </div>
+    <!-- Wishlist Popup End -->
 
+    <!-- Style switcher -->
+    <div
+      id="style-switcher"
+      class="p-3 pt-2 pb-2 border bg-light"
+      onclick="toggleSwitcher()"
+    >
+      <div>
+        <h6 class="text-center title">Select Your Color</h6>
+        <ul class="pattern">
+          <li class="list-inline-item">
+            <a
+              class="color1"
+              href="javascript: void(0);"
+              onclick="setColor('default')"
+            ></a>
+          </li>
+          <li class="list-inline-item">
+            <a
+              class="color2"
+              href="javascript: void(0);"
+              onclick="setColor('violet')"
+            ></a>
+          </li>
+          <li class="list-inline-item">
+            <a
+              class="color3"
+              href="javascript: void(0);"
+              onclick="setColor('green')"
+            ></a>
+          </li>
+          <li class="list-inline-item">
+            <a
+              class="color4"
+              href="javascript: void(0);"
+              onclick="setColor('blue')"
+            ></a>
+          </li>
+          <li class="list-inline-item">
+            <a
+              class="color5"
+              href="javascript: void(0);"
+              onclick="setColor('pink')"
+            ></a>
+          </li>
+          <li class="list-inline-item">
+            <a
+              class="color6"
+              href="javascript: void(0);"
+              onclick="setColor('purple')"
+            ></a>
+          </li>
+        </ul>
+
+        <h6 class="pt-3 mb-0 text-center title border-top">Theme Option</h6>
+        <ul class="mb-0 text-center list-unstyled">
+          <li class="d-grid">
+            <a
+              href="javascript:void(0)"
+              class="mt-2 btn btn-sm btn-block btn-primary rtl-version t-rtl-light"
+              onclick="setTheme('style-rtl')"
+              >RTL</a
+            >
+          </li>
+          <li class="d-grid">
+            <a
+              href="javascript:void(0)"
+              class="mt-2 btn btn-sm btn-block btn-primary ltr-version t-ltr-light"
+              onclick="setTheme('style')"
+              >LTR</a
+            >
+          </li>
+          <li class="d-grid">
+            <a
+              href="javascript:void(0)"
+              class="mt-2 btn btn-sm btn-block btn-primary dark-rtl-version t-rtl-dark"
+              onclick="setTheme('style-dark-rtl')"
+              >RTL</a
+            >
+          </li>
+          <li class="d-grid">
+            <a
+              href="javascript:void(0)"
+              class="mt-2 btn btn-sm btn-block btn-primary dark-ltr-version t-ltr-dark"
+              onclick="setTheme('style-dark')"
+              >LTR</a
+            >
+          </li>
+          <li class="d-grid">
+            <a
+              href="javascript:void(0)"
+              class="mt-2 btn btn-sm btn-block btn-dark dark-version t-dark"
+              onclick="setTheme('style-dark')"
+              >Dark</a
+            >
+          </li>
+          <li class="d-grid">
+            <a
+              href="javascript:void(0)"
+              class="mt-2 btn btn-sm btn-block btn-dark light-version t-light"
+              onclick="setTheme('style')"
+              >Light</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="bottom">
+        <a href="javascript: void(0);" class="bg-white shadow settings d-block"
+          ><i
+            class="mdi mdi-cog ms-1 mdi-24px position-absolute mdi-spin text-primary"
+          ></i
+        ></a>
+      </div>
+    </div>
+    <!-- end Style switcher -->
+
+    <!-- javascript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Icons -->
+    <script src="js/feather.min.js"></script>
+    <!-- Switcher -->
+    <script src="js/switcher.js"></script>
+
+    <!-- Main Js -->
+    <script src="js/app.js"></script>
+  </body>
 </html>
