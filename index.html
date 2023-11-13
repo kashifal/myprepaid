@@ -41,25 +41,25 @@
 
   <body>
     <!-- Navbar STart -->
-    <header id="topnav" class="defaultscroll sticky">
+    <header id="topnav" class="sticky defaultscroll">
       <div class="container">
         <!-- Logo container-->
         <a class="logo" href="index.html">
           <span class="logo-light-mode">
             <img
               src="https://myprepaid-server.com/mt-content/uploads/2022/10/e3gg6q4wuai-jhz.png"
-              class="l-dark h-8"
+              class="h-8 l-dark"
               alt=""
             />
             <img
               src="https://myprepaid-server.com/mt-content/uploads/2022/10/e3gg6q4wuai-jhz.png"
-              class="l-light h-8"
+              class="h-8 l-light"
               alt=""
             />
           </span>
           <img
             src="https://myprepaid-server.com/mt-content/uploads/2022/10/e3gg6q4wuai-jhz.png"
-            class="logo-dark-mode h-8"
+            class="h-8 logo-dark-mode"
             alt=""
           />
         </a>
@@ -78,9 +78,26 @@
           </div>
         </div>
 
-        <ul class="buy-button list-inline mb-0">
+        <ul class="flex items-center gap-4 mb-0 buy-button">
+          <li class="relative flex items-center gap-2 group">
+            <span class="text-white cursor-pointer lang-changer">
+              Langugage:</span
+            >
+            <div
+              name=""
+              id=""
+              class="absolute hidden w-48 px-2 py-1 bg-white rounded group-hover:block lang-menu top-16"
+            >
+              <div>
+                <a class="px-4 py-2" href="index-deu.html">Deutsch</a>
+              </div>
+              <div>
+                <a class="px-4 py-2" href="index.html"> English </a>
+              </div>
+            </div>
+          </li>
           <li>
-            <a href="javascript:void(0)" class="btn btn-primary mx-1">Login</a>
+            <a href="javascript:void(0)" class="mx-1 btn btn-primary">Login</a>
           </li>
         </ul>
         <!--end login button-->
@@ -103,7 +120,7 @@
                   ><span class="submenu-arrow"></span>
                   <ul class="submenu">
                     <li>
-                      <a href="page-blog.html" class="sub-menu-item">
+                      <a href="fivem.html" class="sub-menu-item">
                         Gaming KVM-Server</a
                       >
                     </li>
@@ -116,14 +133,12 @@
                   ><span class="submenu-arrow"></span>
                   <ul class="submenu">
                     <li>
-                      <a href="page-blog.html" class="sub-menu-item">
+                      <a href="rootserver-pakete.html" class="sub-menu-item">
                         Rootserver Pakete</a
                       >
                     </li>
                     <li>
-                      <a href="page-blog.html" class="sub-menu-item">
-                        Konfigurator</a
-                      >
+                      <a href="kvm.html" class="sub-menu-item"> Konfigurator</a>
                     </li>
                   </ul>
                 </li>
@@ -134,32 +149,32 @@
                   ><span class="submenu-arrow"></span>
                   <ul class="submenu">
                     <li>
-                      <a href="page-blog.html" class="sub-menu-item">
+                      <a href="amd-kvm.html" class="sub-menu-item">
                         AMD EPYC (NEW)</a
                       >
                     </li>
                     <li>
-                      <a href="page-blog.html" class="sub-menu-item">
+                      <a href="rootserver-pakete.html" class="sub-menu-item">
                         Intel Pakete</a
                       >
                     </li>
                     <li>
-                      <a href="page-blog.html" class="sub-menu-item">
+                      <a href="kvm.html" class="sub-menu-item">
                         Intel Konfigurator</a
                       >
                     </li>
                     <li>
-                      <a href="page-blog.html" class="sub-menu-item">
+                      <a href="intel-angebote.html" class="sub-menu-item">
                         Intel Rootserver Angebote</a
                       >
                     </li>
                     <li>
-                      <a href="page-blog.html" class="sub-menu-item">
+                      <a href="rootserver-discount.html" class="sub-menu-item">
                         Intel Rootserver Discount</a
                       >
                     </li>
                     <li>
-                      <a href="page-blog.html" class="sub-menu-item">
+                      <a href="ryzen-rootserver.html" class="sub-menu-item">
                         Ryzen Rootserver</a
                       >
                     </li>
@@ -173,12 +188,7 @@
             </li>
             <li><a href="contact.html" class="sub-menu-item">Contact</a></li>
             <li>
-              <a
-                href="https://1.envato.market/hostick-template"
-                target="_blank"
-                class="sub-menu-item"
-                >FAQ</a
-              >
+              <a href="page-faqs.html" class="sub-menu-item">FAQ</a>
             </li>
           </ul>
           <!--end navigation menu-->
@@ -198,19 +208,19 @@
     >
       <div class="bg-overlay"></div>
       <div class="container">
-        <div class="row mt-5 justify-content-center">
+        <div class="mt-5 row justify-content-center">
           <div class="col-12">
-            <div class="title-heading text-center">
-              <h4 class="heading text-white title-dark mb-3">
+            <div class="text-center title-heading">
+              <h4 class="mb-3 text-white heading title-dark">
                 Hosting & Domain In One Plateform
               </h4>
-              <p class="text-white-50 para-desc mx-auto mb-0">
+              <p class="mx-auto mb-0 text-white-50 para-desc">
                 YOUR PREPAID ROOT SERVER Server from 2.95 € / month* Including
                 DDoS protection
               </p>
 
               <div class="mt-4">
-                <a href="javascript:void(0)" class="btn btn-primary mx-1"
+                <a href="javascript:void(0)" class="mx-1 btn btn-primary"
                   >On the Products
                 </a>
               </div>
@@ -230,8 +240,8 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12">
-            <div class="section-title text-center mb-4 pb-2">
-              <h4 class="title mb-3">WHY MYPREPAID SERVER</h4>
+            <div class="pb-2 mb-4 text-center section-title">
+              <h4 class="mb-3 title">WHY MYPREPAID SERVER</h4>
             </div>
           </div>
           <!--end col-->
@@ -239,16 +249,16 @@
         <!--end row-->
 
         <div class="row">
-          <div class="col-md-6 col-12 mt-4 pt-2">
+          <div class="pt-2 mt-4 col-md-6 col-12">
             <div
-              class="card services serv-primary rounded p-4 bg-light position-relative overflow-hidden border-0"
+              class="p-4 overflow-hidden border-0 rounded card services serv-primary bg-light position-relative"
             >
               <span class="h1 icon2 text-primary">
                 <i class="uil uil-weight"></i>
               </span>
-              <div class="card-body p-0 content">
+              <div class="p-0 card-body content">
                 <h5>24/7 Customer Support</h5>
-                <p class="para text-muted mb-0">
+                <p class="mb-0 para text-muted">
                   Our support team is available around the clock. We offer
                   various support options, including email, ticket system,
                   discord and team peak. No matter what problem or concern you
@@ -260,16 +270,16 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-12 mt-4 pt-2">
+          <div class="pt-2 mt-4 col-md-6 col-12">
             <div
-              class="card services serv-primary rounded p-4 bg-light position-relative overflow-hidden border-0"
+              class="p-4 overflow-hidden border-0 rounded card services serv-primary bg-light position-relative"
             >
               <span class="h1 icon2 text-primary">
                 <i class="uil uil-tachometer-fast-alt"></i>
               </span>
-              <div class="card-body p-0 content">
+              <div class="p-0 card-body content">
                 <h5>OPTIMAL LOCATION</h5>
-                <p class="para text-muted mb-0">
+                <p class="mb-0 para text-muted">
                   Our servers are operated in the Tier 3 SkyLink data center.
                   The Tier 3 certification level guarantees high availability
                   and reliability of the infrastructure to ensure that your data
@@ -283,16 +293,16 @@
           </div>
           <!--end col-->
 
-          <div class="col-md-6 col-12 mt-4 pt-2">
+          <div class="pt-2 mt-4 col-md-6 col-12">
             <div
-              class="card services serv-primary rounded p-4 bg-light position-relative overflow-hidden border-0"
+              class="p-4 overflow-hidden border-0 rounded card services serv-primary bg-light position-relative"
             >
               <span class="h1 icon2 text-primary">
                 <i class="uil uil-compact-disc"></i>
               </span>
-              <div class="card-body p-0 content">
+              <div class="p-0 card-body content">
                 <h5>PREPAID SERVER</h5>
-                <p class="para text-muted mb-0">
+                <p class="mb-0 para text-muted">
                   We at myPrepaid-Server work without a contract term and
                   instead rely on a flexible prepaid system. This means that you
                   have full control over your server use and are not bound by
@@ -308,16 +318,16 @@
 
           <!--end col-->
 
-          <div class="col-md-6 col-12 mt-4 pt-2">
+          <div class="pt-2 mt-4 col-md-6 col-12">
             <div
-              class="card services serv-primary rounded p-4 bg-light position-relative overflow-hidden border-0"
+              class="p-4 overflow-hidden border-0 rounded card services serv-primary bg-light position-relative"
             >
               <span class="h1 icon2 text-primary">
                 <i class="uil uil-cloud-check"></i>
               </span>
-              <div class="card-body p-0 content">
+              <div class="p-0 card-body content">
                 <h5>HIGH VALUE HARDWARE</h5>
-                <p class="para text-muted mb-0">
+                <p class="mb-0 para text-muted">
                   myPrepaid server relies on renowned hardware from brand
                   manufacturers such as Intel, Supermicro, Cisco and other
                   well-known providers. This ensures that you always get the
@@ -344,8 +354,8 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12">
-            <div class="section-title text-center mb-4 pb-2">
-              <h4 class="title mb-3" lang="fr0">TOP PRODUCTS ROOT SERVER</h4>
+            <div class="pb-2 mb-4 text-center section-title">
+              <h4 class="mb-3 title" lang="fr0">TOP PRODUCTS ROOT SERVER</h4>
             </div>
           </div>
           <!--end col-->
@@ -353,20 +363,20 @@
         <!--end row-->
 
         <div class="row">
-          <div class="col-lg-6 col-md-6 col-12 mt-4 pt-2">
+          <div class="pt-2 mt-4 col-lg-6 col-md-6 col-12">
             <div
-              class="card pricing hosting-rate border-0 rounded overflow-hidden"
+              class="overflow-hidden border-0 rounded card pricing hosting-rate"
             >
-              <div class="plan-name p-4 border-bottom">
+              <div class="p-4 plan-name border-bottom">
                 <h4 class="title">BRONZE</h4>
               </div>
-              <div class="card-body p-4">
-                <div class="d-flex mb-3">
-                  <span class="h6 text-muted mb-0 mt-2">€</span>
-                  <span class="price text-primary h1 mb-0">3.50</span>
-                  <span class="h6 text-muted align-self-end mb-1">/mo</span>
+              <div class="p-4 card-body">
+                <div class="mb-3 d-flex">
+                  <span class="mt-2 mb-0 h6 text-muted">€</span>
+                  <span class="mb-0 price text-primary h1">3.50</span>
+                  <span class="mb-1 h6 text-muted align-self-end">/mo</span>
                 </div>
-                <ul class="feature-list list-unstyled mb-0">
+                <ul class="mb-0 feature-list list-unstyled">
                   <li class="text-muted">
                     <i class="mdi mdi-arrow-right text-primary me-2"></i> AMD
                     Ryzen 4.20 GHz
@@ -423,26 +433,26 @@
                     Windows
                   </li>
                 </ul>
-                <a href="javascript:void(0)" class="btn btn-primary mt-4"
+                <a href="javascript:void(0)" class="mt-4 btn btn-primary"
                   >More Info</a
                 >
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-12 mt-4 pt-2">
+          <div class="pt-2 mt-4 col-lg-6 col-md-6 col-12">
             <div
-              class="card pricing hosting-rate border-0 rounded overflow-hidden"
+              class="overflow-hidden border-0 rounded card pricing hosting-rate"
             >
-              <div class="plan-name p-4 border-bottom">
+              <div class="p-4 plan-name border-bottom">
                 <h4 class="title">SILVER</h4>
               </div>
-              <div class="card-body p-4">
-                <div class="d-flex mb-3">
-                  <span class="h6 text-muted mb-0 mt-2">€</span>
-                  <span class="price text-primary h1 mb-0">5.00</span>
-                  <span class="h6 text-muted align-self-end mb-1">/mo</span>
+              <div class="p-4 card-body">
+                <div class="mb-3 d-flex">
+                  <span class="mt-2 mb-0 h6 text-muted">€</span>
+                  <span class="mb-0 price text-primary h1">5.00</span>
+                  <span class="mb-1 h6 text-muted align-self-end">/mo</span>
                 </div>
-                <ul class="feature-list list-unstyled mb-0">
+                <ul class="mb-0 feature-list list-unstyled">
                   <li class="text-muted">
                     <i class="mdi mdi-arrow-right text-primary me-2"></i> AMD
                     Ryzen 4.20 GHz
@@ -499,26 +509,26 @@
                     Windows
                   </li>
                 </ul>
-                <a href="javascript:void(0)" class="btn btn-primary mt-4"
+                <a href="javascript:void(0)" class="mt-4 btn btn-primary"
                   >More Info</a
                 >
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-12 mt-4 pt-2">
+          <div class="pt-2 mt-4 col-lg-6 col-md-6 col-12">
             <div
-              class="card pricing hosting-rate border-0 rounded overflow-hidden"
+              class="overflow-hidden border-0 rounded card pricing hosting-rate"
             >
-              <div class="plan-name p-4 border-bottom">
+              <div class="p-4 plan-name border-bottom">
                 <h4 class="title">GOLD</h4>
               </div>
-              <div class="card-body p-4">
-                <div class="d-flex mb-3">
-                  <span class="h6 text-muted mb-0 mt-2">€</span>
-                  <span class="price text-primary h1 mb-0">8.00</span>
-                  <span class="h6 text-muted align-self-end mb-1">/mo</span>
+              <div class="p-4 card-body">
+                <div class="mb-3 d-flex">
+                  <span class="mt-2 mb-0 h6 text-muted">€</span>
+                  <span class="mb-0 price text-primary h1">8.00</span>
+                  <span class="mb-1 h6 text-muted align-self-end">/mo</span>
                 </div>
-                <ul class="feature-list list-unstyled mb-0">
+                <ul class="mb-0 feature-list list-unstyled">
                   <li class="text-muted">
                     <i class="mdi mdi-arrow-right text-primary me-2"></i> AMD
                     Ryzen 4.20 GHz
@@ -575,26 +585,26 @@
                     Windows
                   </li>
                 </ul>
-                <a href="javascript:void(0)" class="btn btn-primary mt-4"
+                <a href="javascript:void(0)" class="mt-4 btn btn-primary"
                   >More Info</a
                 >
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-12 mt-4 pt-2">
+          <div class="pt-2 mt-4 col-lg-6 col-md-6 col-12">
             <div
-              class="card pricing hosting-rate border-0 rounded overflow-hidden"
+              class="overflow-hidden border-0 rounded card pricing hosting-rate"
             >
-              <div class="plan-name p-4 border-bottom">
+              <div class="p-4 plan-name border-bottom">
                 <h4 class="title">PLATINUM</h4>
               </div>
-              <div class="card-body p-4">
-                <div class="d-flex mb-3">
-                  <span class="h6 text-muted mb-0 mt-2">€</span>
-                  <span class="price text-primary h1 mb-0">13.50</span>
-                  <span class="h6 text-muted align-self-end mb-1">/mo</span>
+              <div class="p-4 card-body">
+                <div class="mb-3 d-flex">
+                  <span class="mt-2 mb-0 h6 text-muted">€</span>
+                  <span class="mb-0 price text-primary h1">13.50</span>
+                  <span class="mb-1 h6 text-muted align-self-end">/mo</span>
                 </div>
-                <ul class="feature-list list-unstyled mb-0">
+                <ul class="mb-0 feature-list list-unstyled">
                   <li class="text-muted">
                     <i class="mdi mdi-arrow-right text-primary me-2"></i> AMD
                     Ryzen 4.20 GHz
@@ -651,7 +661,7 @@
                     Windows
                   </li>
                 </ul>
-                <a href="javascript:void(0)" class="btn btn-primary mt-4"
+                <a href="javascript:void(0)" class="mt-4 btn btn-primary"
                   >More Info</a
                 >
               </div>
@@ -672,8 +682,8 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12">
-            <div class="section-title text-center mb-4 pb-2">
-              <h4 class="title mb-3">
+            <div class="pb-2 mb-4 text-center section-title">
+              <h4 class="mb-3 title">
                 Order your prepaid server now easily and conveniently.
               </h4>
             </div>
@@ -683,18 +693,18 @@
         <!--end row-->
 
         <div class="row">
-          <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
-            <div class="card services p-4 rounded-pill border-0">
-              <div class="icon text-center mb-4">
+          <div class="pt-2 mt-4 col-lg-3 col-md-6 col-12">
+            <div class="p-4 border-0 card services rounded-pill">
+              <div class="mb-4 text-center icon">
                 <img src="images/icons/shared.svg" alt="" />
               </div>
-              <div class="card-body p-0 content">
+              <div class="p-0 card-body content">
                 <h5 class="mb-3">
                   <a href="hosting-shared.html" class="title text-dark"
                     >REGISTER</a
                   >
                 </h5>
-                <p class="text-muted mb-3">
+                <p class="mb-3 text-muted">
                   Create an account for free and receive a 15% discount as a new
                   customer with the code: new customer-15%
                 </p>
@@ -703,16 +713,16 @@
           </div>
           <!--end col-->
 
-          <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
-            <div class="card services p-4 rounded-pill border-0">
-              <div class="icon text-center mb-4">
+          <div class="pt-2 mt-4 col-lg-3 col-md-6 col-12">
+            <div class="p-4 border-0 card services rounded-pill">
+              <div class="mb-4 text-center icon">
                 <img src="images/icons/vps.svg" alt="" />
               </div>
-              <div class="card-body p-0 content">
+              <div class="p-0 card-body content">
                 <h5 class="mb-3">
                   <a href="hosting-vps.html" class="title text-dark">LOAD</a>
                 </h5>
-                <p class="text-muted mb-3">
+                <p class="mb-3 text-muted">
                   With us you can easily top up your credit in just a few steps.
                   We accept different payment methods to offer you the greatest
                   possible flexibility.
@@ -722,18 +732,18 @@
           </div>
           <!--end col-->
 
-          <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
-            <div class="card services p-4 rounded-pill border-0">
-              <div class="icon text-center mb-4">
+          <div class="pt-2 mt-4 col-lg-3 col-md-6 col-12">
+            <div class="p-4 border-0 card services rounded-pill">
+              <div class="mb-4 text-center icon">
                 <img src="images/icons/dedicated.svg" alt="" />
               </div>
-              <div class="card-body p-0 content">
+              <div class="p-0 card-body content">
                 <h5 class="mb-3">
                   <a href="hosting-dedicated.html" class="title text-dark"
                     >ORDER</a
                   >
                 </h5>
-                <p class="text-muted mb-3">
+                <p class="mb-3 text-muted">
                   As soon as you have sufficient credit, you can easily order
                   the desired product.
                 </p>
@@ -742,18 +752,18 @@
           </div>
           <!--end col-->
 
-          <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
-            <div class="card services p-4 rounded-pill border-0">
-              <div class="icon text-center mb-4">
+          <div class="pt-2 mt-4 col-lg-3 col-md-6 col-12">
+            <div class="p-4 border-0 card services rounded-pill">
+              <div class="mb-4 text-center icon">
                 <img src="images/icons/cloud.svg" alt="" />
               </div>
-              <div class="card-body p-0 content">
+              <div class="p-0 card-body content">
                 <h5 class="mb-3">
                   <a href="hosting-cloud.html" class="title text-dark"
                     >PROVIDING</a
                   >
                 </h5>
-                <p class="text-muted mb-3">
+                <p class="mb-3 text-muted">
                   After successfully completing your order, your server will be
                   ready for use within 60 seconds.
                 </p>
@@ -770,9 +780,9 @@
     </section>
     <!--end section-->
     <div
-      class="fixed border-2 z-50 border-blue-600 left-8 bottom-8 w-10 h-10 bg-white rounded-full"
+      class="fixed z-50 w-10 h-10 bg-white border-2 border-blue-600 rounded-full left-8 bottom-8"
     >
-      <a href="#" class="w-full h-full flex items-center justify-center">
+      <a href="#" class="flex items-center justify-center w-full h-full">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="20"
@@ -786,12 +796,12 @@
         </svg>
       </a>
     </div>
-    <section class="section-title text-center mb-4 pb-2">
-      <div><h1 class="title mb-3">Customer reviews</h1></div>
+    <section class="pb-2 mb-4 text-center section-title">
+      <div><h1 class="mb-3 title">Customer reviews</h1></div>
       <div class="mt-4">
         <a
           href="https://de.trustpilot.com/review/unixserv.eu?utm_medium=trustbox&utm_source=MicroReviewCount"
-          class="btn btn-primary mx-1"
+          class="mx-1 btn btn-primary"
           >View our reviews on Truspilot
         </a>
       </div>
@@ -803,14 +813,14 @@
 
       <div class="container mt-5">
         <div class="footer-bar">
-          <div class="row mt-5">
+          <div class="mt-5 row">
             <div class="col-lg-12">
               <div class="row">
-                <div class="col-lg-4 col-md-4 col-12 mt-4 pt-2 mt-lg-0 pt-lg-0">
-                  <h5 class="text-light title-dark footer-head fw-normal mb-0">
+                <div class="pt-2 mt-4 col-lg-4 col-md-4 col-12 mt-lg-0 pt-lg-0">
+                  <h5 class="mb-0 text-light title-dark footer-head fw-normal">
                     NUMBER METHODS
                   </h5>
-                  <ul class="list-unstyled footer-list mt-4">
+                  <ul class="mt-4 list-unstyled footer-list">
                     <li>
                       <a href="javascript:void(0)" class="text-foot"
                         ><i class="mdi mdi-chevron-right me-1"></i>PayPal</a
@@ -847,11 +857,11 @@
                   </ul>
                 </div>
 
-                <div class="col-lg-4 col-md-4 col-12 mt-4 pt-2 mt-lg-0 pt-lg-0">
-                  <h5 class="text-light title-dark footer-head fw-normal mb-0">
+                <div class="pt-2 mt-4 col-lg-4 col-md-4 col-12 mt-lg-0 pt-lg-0">
+                  <h5 class="mb-0 text-light title-dark footer-head fw-normal">
                     PRODUCTS
                   </h5>
-                  <ul class="list-unstyled footer-list mt-4">
+                  <ul class="mt-4 list-unstyled footer-list">
                     <li>
                       <a href="javascript:void(0)" class="text-foot"
                         ><i class="mdi mdi-chevron-right me-1"></i>Dedicated
@@ -878,11 +888,11 @@
                     </li>
                   </ul>
                 </div>
-                <div class="col-lg-4 col-md-4 col-12 mt-4 pt-2 mt-lg-0 pt-lg-0">
-                  <h5 class="text-light title-dark footer-head fw-normal mb-0">
+                <div class="pt-2 mt-4 col-lg-4 col-md-4 col-12 mt-lg-0 pt-lg-0">
+                  <h5 class="mb-0 text-light title-dark footer-head fw-normal">
                     INFORMATION
                   </h5>
-                  <ul class="list-unstyled footer-list mt-4">
+                  <ul class="mt-4 list-unstyled footer-list">
                     <li>
                       <a href="javascript:void(0)" class="text-foot"
                         ><i class="mdi mdi-chevron-right me-1"></i> imprint</a
@@ -911,7 +921,7 @@
     <!--end footer-->
     <footer class="footer footer-line bg-footer">
       <div class="container">
-        <div class="row text-center">
+        <div class="text-center row">
           <div class="col-sm-6 col-md-7">
             <div class="text-sm-start">
               <p class="mb-0 text-foot">
@@ -925,8 +935,8 @@
           </div>
           <!--end col-->
 
-          <div class="col-sm-6 col-md-5 mt-sm-0 pt-2 pt-sm-0">
-            <ul class="list-unstyled social-icon foot-social-icon mb-0">
+          <div class="pt-2 col-sm-6 col-md-5 mt-sm-0 pt-sm-0">
+            <ul class="mb-0 list-unstyled social-icon foot-social-icon">
               <li class="list-inline-item">
                 <a href="javascript:void(0)" class="rounded-full"
                   ><i data-feather="facebook" class="fea icon-sm fea-social"></i
@@ -971,7 +981,7 @@
       aria-hidden="true"
     >
       <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
-        <div class="modal-content rounded shadow border-0">
+        <div class="border-0 rounded shadow modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalCenterTitle">Login</h5>
             <button
@@ -1030,7 +1040,7 @@
                         >
                       </div>
                     </div>
-                    <p class="forgot-pass mb-0">
+                    <p class="mb-0 forgot-pass">
                       <a
                         href="page-forgot-password.html"
                         class="text-dark fw-bold"
@@ -1040,30 +1050,30 @@
                   </div>
                 </div>
                 <!--end col-->
-                <div class="col-12 mb-0">
+                <div class="mb-0 col-12">
                   <button class="btn btn-primary w-100">Sign in</button>
                 </div>
                 <!--end col-->
-                <div class="col-12 mt-4 text-center">
+                <div class="mt-4 text-center col-12">
                   <h6 class="mb-0">Or Login With</h6>
                 </div>
 
                 <div class="col-12">
                   <div class="row">
-                    <div class="col-sm-6 mt-4">
+                    <div class="mt-4 col-sm-6">
                       <a href="#" class="btn w-100 btn-light bg-facebook"
                         ><i class="mdi mdi-facebook"></i> Facebook</a
                       >
                     </div>
-                    <div class="col-sm-6 mt-4">
+                    <div class="mt-4 col-sm-6">
                       <a href="#" class="btn w-100 btn-light"
                         ><i class="mdi mdi-google"></i> Google</a
                       >
                     </div>
                   </div>
                 </div>
-                <div class="col-12 text-center">
-                  <p class="mb-0 mt-3">
+                <div class="text-center col-12">
+                  <p class="mt-3 mb-0">
                     <small class="text-dark me-2"
                       >Don't have an account ?</small
                     >
@@ -1092,15 +1102,15 @@
       aria-hidden="true"
     >
       <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content rounded shadow-lg border-0 overflow-hidden">
-          <div class="modal-body py-5">
+        <div class="overflow-hidden border-0 rounded shadow-lg modal-content">
+          <div class="py-5 modal-body">
             <div class="text-center">
               <div
-                class="icon d-flex align-items-center justify-content-center bg-soft-danger rounded-circle mx-auto"
+                class="mx-auto icon d-flex align-items-center justify-content-center bg-soft-danger rounded-circle"
                 style="height: 95px; width: 95px"
               >
                 <h1 class="mb-0">
-                  <i class="uil uil-heart-break align-middle"></i>
+                  <i class="align-middle uil uil-heart-break"></i>
                 </h1>
               </div>
               <div class="mt-4">
@@ -1128,11 +1138,11 @@
     <!-- Style switcher -->
     <div
       id="style-switcher"
-      class="bg-light border p-3 pt-2 pb-2"
+      class="p-3 pt-2 pb-2 border bg-light"
       onclick="toggleSwitcher()"
     >
       <div>
-        <h6 class="title text-center">Select Your Color</h6>
+        <h6 class="text-center title">Select Your Color</h6>
         <ul class="pattern">
           <li class="list-inline-item">
             <a
@@ -1178,12 +1188,12 @@
           </li>
         </ul>
 
-        <h6 class="title text-center pt-3 mb-0 border-top">Theme Option</h6>
-        <ul class="text-center list-unstyled mb-0">
+        <h6 class="pt-3 mb-0 text-center title border-top">Theme Option</h6>
+        <ul class="mb-0 text-center list-unstyled">
           <li class="d-grid">
             <a
               href="javascript:void(0)"
-              class="btn btn-sm btn-block btn-primary rtl-version t-rtl-light mt-2"
+              class="mt-2 btn btn-sm btn-block btn-primary rtl-version t-rtl-light"
               onclick="setTheme('style-rtl')"
               >RTL</a
             >
@@ -1191,7 +1201,7 @@
           <li class="d-grid">
             <a
               href="javascript:void(0)"
-              class="btn btn-sm btn-block btn-primary ltr-version t-ltr-light mt-2"
+              class="mt-2 btn btn-sm btn-block btn-primary ltr-version t-ltr-light"
               onclick="setTheme('style')"
               >LTR</a
             >
@@ -1199,7 +1209,7 @@
           <li class="d-grid">
             <a
               href="javascript:void(0)"
-              class="btn btn-sm btn-block btn-primary dark-rtl-version t-rtl-dark mt-2"
+              class="mt-2 btn btn-sm btn-block btn-primary dark-rtl-version t-rtl-dark"
               onclick="setTheme('style-dark-rtl')"
               >RTL</a
             >
@@ -1207,7 +1217,7 @@
           <li class="d-grid">
             <a
               href="javascript:void(0)"
-              class="btn btn-sm btn-block btn-primary dark-ltr-version t-ltr-dark mt-2"
+              class="mt-2 btn btn-sm btn-block btn-primary dark-ltr-version t-ltr-dark"
               onclick="setTheme('style-dark')"
               >LTR</a
             >
@@ -1215,7 +1225,7 @@
           <li class="d-grid">
             <a
               href="javascript:void(0)"
-              class="btn btn-sm btn-block btn-dark dark-version t-dark mt-2"
+              class="mt-2 btn btn-sm btn-block btn-dark dark-version t-dark"
               onclick="setTheme('style-dark')"
               >Dark</a
             >
@@ -1223,7 +1233,7 @@
           <li class="d-grid">
             <a
               href="javascript:void(0)"
-              class="btn btn-sm btn-block btn-dark light-version t-light mt-2"
+              class="mt-2 btn btn-sm btn-block btn-dark light-version t-light"
               onclick="setTheme('style')"
               >Light</a
             >
@@ -1231,7 +1241,7 @@
         </ul>
       </div>
       <div class="bottom">
-        <a href="javascript: void(0);" class="settings bg-white shadow d-block"
+        <a href="javascript: void(0);" class="bg-white shadow settings d-block"
           ><i
             class="mdi mdi-cog ms-1 mdi-24px position-absolute mdi-spin text-primary"
           ></i
